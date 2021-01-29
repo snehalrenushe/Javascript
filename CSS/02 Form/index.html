@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+  <html>
+    </head>
+    <title>Form</title>
+    <body>
+      <link rel="stylesheet" href="style.css">
+        <h2>Basic Information</h2>
+        <p>Please Resize the window...You will see the changes of effects which are doing by css <br> Note: When the screen in less than 600px wide,make the two columns stack on top of each other instead of next to each other.</p>
+
+    <div class="form">
+    <form>
+      <div class="row">
+         <div class="col">
+            <label for="fname">First Name</label>
+         </div>
+        	<div class="col">
+         		<input type="text" id="fname" name="firstname" placeholder="Your First Name">
+       	</div>
+      </div>
+      <div class="row">
+      	<div class="col">
+           <label for="lname">Last Name</label>
+    	   </div>
+    		<div class="col">
+     			  <input type="text" id="lname" name="lastname" placeholder="Your Last Name">
+    		</div>
+  		</div>
+  		<div class="row">
+   	  <div class="col">
+     		  <label for="country">Country</label>
+    	  </div>
+   	  <div class="col">
+      		<select id="country" name="country">
+        			<option value="India">India</option>
+       		   <option value="canada">Canada</option>
+        			<option value="usa">USA</option>
+      		</select>
+    	  </div>
+ 		</div>
+  		<div class="row">
+    		<div class="col">
+     			 <label for="abu">About Yourself</label>
+    		</div>
+   	   <div class="col">
+      		<textarea id="abu" name="About Your" placeholder="Write Here About Yourself" style="height:200px"></textarea>
+   	   </div>
+         </div>
+  			<div class="row">
+    			<input type="submit" value="Submit">
+ 		  </div>
+   </form>
+   </div>
+
+    </body>
+  </html>

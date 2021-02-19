@@ -1,9 +1,9 @@
 
             function Change_Background_Color() {
-              let color = document.getElementById('colorInputColor').value;
+              let color = document.getElementById('InputColor').value;
               document.body.style.backgroundColor=color;
 
-              document.getElementById('colorInputText').value = color;
+              document.getElementById('InputText').value = color;
             }
             
    

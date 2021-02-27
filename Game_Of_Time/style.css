@@ -1,0 +1,30 @@
+body {
+	font-family: sans-serif;
+	background-color: #d9a5d4;
+}
+#shape {
+	width: 200px;
+	height: 200px;
+	background-color: red;
+	display: none;
+	position: relative;
+}
+
+.bold {
+	font-weight: bold;
+	text-align: right;
+	color: #000000;
+	font-family: Times New Roman;
+}
+
+h1 {
+	text-align: center;
+	color: red;
+	font-family: Copperplate;
+}
+
+p {
+	text-align: center;
+	color: #040cf6;
+	font-family: Lucida Console;
+}

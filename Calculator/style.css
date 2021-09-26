@@ -1,0 +1,32 @@
+.container{
+    text-align: center;
+    margin-top: 23px;
+    background-color: lavenderblush;
+}
+
+table{
+    margin: auto;
+}
+
+input{
+    font-size: 35px;
+    border: 2px solid;
+}
+
+button{
+    font-size: 38px;
+    background-color: rgb(131, 163, 224);
+    width: 105px;
+    height: 55px;
+    border-radius: 50%;
+}
+
+h1{
+    font-size: 40px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: maroon;
+}
+
+.calculator{
+    display: inline-block;
+}

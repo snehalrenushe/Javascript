@@ -6,38 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Form</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="container">
-        <h3>Login Form</h3>
+    <form action="success.html" class="box" name="f1" onsubmit="return valid()">
+        <h1>Login</h1>
+        <input type="text" name="user" placeholder="Enter a Username " maxlength="8">
+        <input type="password" name="pass" placeholder="Enter a Password" id="password" maxlength="10">
+        <input type="submit" name="sub" value="Login">
+    </form>
 
-        <form action="POST">
-            <table>
-                <tr>
-                    <td>Username :</td>
-                    <td>
-                        <input type="text" name="user">
-                    </td>
-                </tr>
-                <tr>
-                    <td>Password :</td>
-                    <td>
-                        <input type="text" name="pass">
-                    </td>
-                </tr>
-
-                <tr>
-                    <td>
-                        <a href="Information.html">
-                            <input type="submit">
-                        </a>
-                    </td>
-                </tr>
-            </table>
-        </form>
-    </div>
-
+    <script src="script.js"></script>
 </body>
-
 </html>

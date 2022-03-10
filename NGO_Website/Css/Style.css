@@ -1,0 +1,242 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Balsamiq Sans', cursive;
+}
+.logo{
+    color: rgb(229, 255, 0);
+}
+.navbar-custom {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: rgba(7, 7, 7, 0.582);
+}
+
+.hero {
+    padding-top: 10.5rem;
+    padding-bottom: 6rem;
+    color: #000; 
+	font-family: Californian FB;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 120px;
+	/* line-height: 138px; */
+	font-family: Californian FB;
+    background-image: url("/img/girl-3717166_1280.jpeg");
+    background-repeat: no-repeat; 
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+	height: 585px;
+  }
+
+.heading{
+	position: absolute;
+	width: 939px;
+	height: 82px;
+	left: 37px;
+	top: 120px;
+	font-family: Californian FB;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 80px;
+	/* line-height: 138px; */
+	color: #FFFFFF;
+}
+
+.button{
+	position: absolute;
+	width: 180px;
+	left: 196px;
+	top: 250px;
+	background: #FF0000;
+	color: white;
+	font-family: Californian FB;
+	font-style: normal;
+	font-size: 30px;
+	line-height: 40px;
+}
+
+.para{
+	font-size: 20px;
+	top: 600px;
+}
+
+
+  /*Major Causes Section*/
+  .page-section h2.section-heading {
+    font-size: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+	border-bottom: 3px solid var(--red);
+	text-align: center;
+	font-weight: 200;
+	margin: 0 auto 50px;
+	position: relative;
+	padding: 10px 0;
+	text-transform: uppercase;
+	width: 400px;
+  }
+
+  .page-section h2.section-heading::after{
+	  display: inline-block;
+	  content: "";
+	  height: 19px;
+	  width: 19px;
+	  background-color: var(--red);
+	  position: absolute;
+	  left: calc(50% - 10px);
+	  top: calc(75% - 7px);
+	  transform: rotate(45deg) translate(50%, 50%);
+	  border: 3px solid #fff;
+  }
+
+  .section-heading{
+	border-bottom: 3px solid var(--themeRed);
+	text-align: center;
+
+  }
+  /*End of Major Causes Section */
+  
+/*Team Section*/
+  
+.box
+{
+	position: relative;
+	width: 280px;
+	height: 400px;
+	margin: 20px 0;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+.box .img-box
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	clip-path: circle(400px at center 100px);
+	transition: 0.3s;
+	transition-delay: 0.5s;
+}
+.box:hover .img-box
+{
+	clip-path: circle(80px at center 100px);
+	transition-delay: 0s;
+}
+.box .img-box img
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.box .content
+{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 55%;
+	padding: 20px;
+	box-sizing: border-box;
+	text-align: center;
+}
+.box .content h2
+{
+	margin: 0;
+	padding: 0;
+}
+.box .content a
+{
+	text-decoration: none;
+	background: #000;
+	color: #fff;
+	padding: 5px;
+	display: inline-block;
+}
+.box .content h2,
+.box .content p,
+.box .content a
+{
+	opacity: 0;
+	transition: 0.5s;
+	transform: translateY(20px);
+}
+.box:hover .content h2
+{
+	opacity: 1;
+	transform: translateY(0);
+	transition-delay: 0.5s;
+}
+ .box:hover .content p
+{
+	opacity: 1;
+	transform: translateY(0);
+	transition-delay: 0.7s;
+}
+ .box:hover .content a
+{
+	opacity: 1;
+	transform: translateY(0);
+	transition-delay: 0.9s;
+}
+
+.team-section h2.section-heading {
+    font-size: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+	border-bottom: 3px solid var(--red);
+	text-align: center;
+	font-weight: 200;
+	margin: 0 auto 50px;
+	position: relative;
+	padding: 10px 0;
+	text-transform: uppercase;
+	width: 500px;
+  }
+
+  .team-section h2.section-heading::after{
+	  display: inline-block;
+	  content: "";
+	  height: 19px;
+	  width: 19px;
+	  background-color: var(--red);
+	  position: absolute;
+	  left: calc(50% - 10px);
+	  top: calc(75% - 7px);
+	  transform: rotate(45deg) translate(50%, 50%);
+	  border: 3px solid #fff;
+  }
+
+  .section-heading{
+	border-bottom: 3px solid var(--themeRed);
+	text-align: center;
+  }
+
+/* End of Team Section*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  

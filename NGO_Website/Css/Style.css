@@ -49,20 +49,44 @@ body{
 
 .button{
 	position: absolute;
-	width: 180px;
+	width: 270px;
 	left: 196px;
-	top: 250px;
-	background: #FF0000;
+	top: 240px;
+	background: #ff0000;
 	color: white;
-	font-family: Californian FB;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	font-style: normal;
-	font-size: 30px;
-	line-height: 40px;
+	font-size: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-weight: normal;
 }
 
 .para{
+	position: absolute;
+	width: 680px;
+	left: 50px;
+	top: 310px;
+	color: white;
+	font-family: Californian FB;
+	font-style: normal;
 	font-size: 20px;
-	top: 600px;
+	line-height: 24px;
+}
+
+.start{
+	position: absolute;
+	width: 200px;
+	left: 220px;
+	top: 390px;
+	background: #3c7df5;
+	color: white;
+	font-family: Californian FB;
+	font-style: normal;
+	font-size: 20px;
+	line-height: 40px;
+	font-weight: bold;
+	outline: none;
 }
 
   /*Major Causes Section*/
@@ -222,6 +246,61 @@ body{
   }
 
 /* End of Team Section*/
+
+/* Footer Start */
+
+footer{
+	background-color: #000;
+	color: white;
+	padding: 50px 0;
+	font-size: 14px;
+}
+
+footer .container{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 50px;
+}
+
+footer .title{
+	font-size: 20px;
+	font-weight: 600;
+	text-transform: uppercase;
+	border-bottom: 2px solid;
+	margin-bottom: 30px;
+	padding: 0 0 5px 0;
+}
+
+footer p{
+	margin-bottom: 10px;
+}
+
+footer .linkContainer ul{
+	list-style-type: none;
+}
+
+footer .linkContainer ul li a{
+	text-decoration: none;
+	color: #7f7f7f;
+	margin-bottom: 10px;
+	display: inline-block;
+}
+
+footer .newsLetterContainer img{
+	height: 20px;
+	margin-bottom: 11px;
+}
+
+footer .newsLetterContainer input{
+	background-color: transparent;
+	border: 1px solid #7f7f7f;
+	outline: none;
+	padding: 10px 15px;
+	width: 100%;
+	border-radius: 30px;
+	color: #ccc;
+}
+/* Footer Ends */
 
 
 

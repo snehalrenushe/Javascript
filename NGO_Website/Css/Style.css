@@ -6,9 +6,19 @@
 body{
     font-family: 'Balsamiq Sans', cursive;
 }
+
+html{
+	scroll-behavior: smooth;
+}
+
 .logo{
     color: rgb(229, 255, 0);
 }
+
+nav ul li a:hover{
+	background-color: rgb(177, 43, 43);
+}
+
 .navbar-custom {
   padding-top: 1rem;
   padding-bottom: 1rem;

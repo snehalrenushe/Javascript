@@ -1,0 +1,57 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Balsamiq Sans', cursive;
+}
+.logo{
+    color: rgb(229, 255, 0);
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+nav ul li a:hover{
+	background-color: rgb(177, 43, 43);
+}
+
+.navbar-custom {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: rgba(7, 7, 7, 0.582);
+}
+
+.hero {
+    padding-top: 10.5rem;
+    padding-bottom: 6rem;
+    color: #000; 
+	font-family: Californian FB;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 120px;
+	/* line-height: 138px; */
+	font-family: Californian FB;
+    background-image: url("/img/Services.jpg");
+    background-repeat: no-repeat; 
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+	height: 580px;
+  }
+
+.heading{
+	position: absolute;
+	width: 339px;
+	height: 70px;
+	left: 480px;
+	top: 160px;
+	font-family: Californian FB;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 80px;
+	/* line-height: 138px; */
+	color: #000000;
+}

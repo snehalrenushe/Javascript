@@ -9,6 +9,15 @@ body{
 .logo{
     color: rgb(229, 255, 0);
 }
+
+html{
+	scroll-behavior: smooth;
+}
+
+nav ul li a:hover{
+	background-color: rgb(177, 43, 43);
+}
+
 .navbar-custom {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -75,4 +84,197 @@ body{
     background-color: rgb(196, 120, 231);
 	padding: 15px 20px;
 }
+
+/* design Below about us and gallery Start */
+
+.team-section h2.section-heading {
+    font-size: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+	border-bottom: 3px solid var(--red);
+	text-align: center;
+	font-weight: 200;
+	margin: 0 auto 50px;
+	position: relative;
+	padding: 10px 0;
+	text-transform: uppercase;
+	width: 500px;
+  }
+
+  .team-section h2.section-heading::after{
+	  display: inline-block;
+	  content: "";
+	  height: 19px;
+	  width: 19px;
+	  background-color: var(--red);
+	  position: absolute;
+	  left: calc(50% - 10px);
+	  top: calc(75% - 7px);
+	  transform: rotate(45deg) translate(50%, 50%);
+	  border: 3px solid #fff;
+  }
+
+  .section-heading{
+	border-bottom: 3px solid var(--themeRed);
+	text-align: center;
+  }
+
+/* design Below about us and gallery End */
+
+/* About us Boxes Start */
+
+#aboutsection .cards{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 50px;
+	position: relative;
+	height: 245px;
+}
+
+#aboutsection .cards > div{
+	width: 350px;
+	background-color: rgb(231, 226, 226);
+	padding: 35px;
+	color: #444;
+	text-align: center;
+	border-radius: 5px;
+	height: 215px;
+	border: 1px solid #ccc;
+	transition: 0.4s;
+}
+
+#aboutsection .cards > div:hover{
+	width: 400px;
+	margin-top: -20px;
+	border-color: var(--red);
+	padding: 45px;
+	height: auto;
+}
+
+#aboutsection .cards > div .title{
+	font-size: 18px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+#aboutsection  .cards > div p{
+	font-size: 14px;
+	margin-top: 15px;
+
+}
+
+#aboutsection .cards > div button{
+	border: 1px solid var(--red);
+	outline: none;
+	padding: 7px 15px;
+	margin-top: 15px;
+	font-size: 12px;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+#aboutsection  .cards > div:hover button{
+	background-color: var(--red);
+	color: #fff;
+}
+/* About us Boxes End */
+
+/* Gallery Start */
+
+.team-section .galleryContainer{
+	column-count: 4;
+	column-gap: 20px;
+}
+
+.team-section .galleryContainer .item{
+	position: relative;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+
+.team-section .galleryContainer img{
+	width: 100%;
+	display: block;
+	transition: 0.4s;
+}
+
+.team-section .galleryContainer .title{
+	position: absolute;
+	background-color: rgb(194, 186, 186);
+	padding: 5px;
+	margin: 5px;
+	border-radius: 5px;
+	font-size: 13px;
+	font-weight: bold;
+	opacity: 0;
+	z-index: 1;
+	transition: 0.4s;
+}
+
+.team-section .galleryContainer .item:hover .title{
+	opacity: 1;
+}
+
+.team-section .galleryContainer .item:hover img{
+	transform: scale(1.2);
+}
+/* Gallery End */
+
+/* Footer Start */
+
+footer{
+	background-color: #000;
+	color: white;
+	padding: 50px 0;
+	font-size: 14px;
+}
+
+footer .container{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 50px;
+}
+
+footer .title{
+	font-size: 20px;
+	font-weight: 600;
+	text-transform: uppercase;
+	border-bottom: 2px solid;
+	margin-bottom: 30px;
+	padding: 0 0 5px 0;
+}
+
+footer p{
+	margin-bottom: 10px;
+}
+
+footer .linkContainer ul{
+	list-style-type: none;
+}
+
+footer .linkContainer ul li a{
+	text-decoration: none;
+	color: #7f7f7f;
+	margin-bottom: 10px;
+	display: inline-block;
+}
+
+footer .newsLetterContainer img{
+	height: 20px;
+	margin-bottom: 11px;
+}
+
+footer .newsLetterContainer input{
+	background-color: transparent;
+	border: 1px solid #7f7f7f;
+	outline: none;
+	padding: 10px 15px;
+	width: 100%;
+	border-radius: 30px;
+	color: #ccc;
+}
+/* Footer Ends */
+
 

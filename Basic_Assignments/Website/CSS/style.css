@@ -33,6 +33,10 @@ nav{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.navbar label:hover{
+    color: rgb(76, 150, 247);
+}
+
 nav ul{
     float: right;
     margin-right: 40px;
@@ -165,41 +169,114 @@ nav ul li a:hover{
 
 .batches{
     background-color: rgb(206, 171, 214);
-    /* padding: 80px 20px; */
+    padding: 80px 20px;
     border-bottom: 2px solid white;
-    width: 100%;
-    margin: 50px auto;
 }
-
 
 .lang-box{
-    display: flex;
+    margin: 88px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 30px;
+    align-items: center;
 }
 
-.language{
-    width: 20%;
-    background: #fff;
-    border: 1px solid #ccc;
-    margin-bottom: 50px;
-    transition: 0.3s;
-}
-
-.name{
+.lang-box > article{
+    background-color: rgb(247, 86, 179);
+    border: none;
+    border-radius: 20px;
     text-align: center;
-    padding: 50px 10px;
-    background-color: rgb(238, 51, 129);
+    width: 250px;
+    padding: 50px 40px;
+}
+
+.language h3{
+    text-transform: uppercase;
+    font-size: 20px;
+    background-color: aliceblue;
+}
+
+.language p{
+    padding: 15px 10px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.btn{
+    background-color: rgb(235, 170, 218);
+    border-radius: 20px;
+    border: none;
     color: white;
+    padding: 10px;
+    width: 100%;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
 }
 
-.info{
-    padding: 30px 20px;
-    text-align: center;
-    font-size: 18px;
-}
-
-.headingnew{
-    text-align: center;
-    font-size: 30px;
-    margin-bottom: 50px;
+.btn:hover{
+    background-color: white;
+    color: black;
 }
 /* Batches End */
+
+/* Contact us Start */
+
+.contact{
+    width: 100%;
+    max-width: 6000px;
+    background-color: white;
+    top: 50%;
+    left: 100%;
+    padding: 30px 340px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.contact h1{
+    margin-top: 0;
+    font-weight: bold
+}
+
+.contact-box{
+    border: 1px solid gray;
+    margin: 8px 0;
+    padding: 12px 8px;
+    border-radius: 8px;
+}
+
+.contact-box label{
+    display: block;
+    text-align: left;
+    color: blue;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.contact-box input,.contact-box textarea{
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 20px;
+    margin-top: 6px;
+}
+
+.save{
+    display: block;
+    background-color: rgb(250, 13, 218);
+    padding: 14px 0;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 8px;
+    width: 100%;
+}
+
+.save:hover{
+    background-color: rgb(214, 238, 128);
+    color: black;
+}
+
+/* Contact us End */

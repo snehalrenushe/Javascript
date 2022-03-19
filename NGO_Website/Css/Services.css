@@ -55,3 +55,35 @@ nav ul li a:hover{
 	/* line-height: 138px; */
 	color: #000000;
 }
+
+.team-section h2.section-heading {
+    font-size: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+	border-bottom: 3px solid var(--red);
+	text-align: center;
+	font-weight: 200;
+	margin: 0 auto 50px;
+	position: relative;
+	padding: 10px 0;
+	text-transform: uppercase;
+	width: 500px;
+  }
+
+  .team-section h2.section-heading::after{
+	  display: inline-block;
+	  content: "";
+	  height: 19px;
+	  width: 19px;
+	  background-color: var(--red);
+	  position: absolute;
+	  left: calc(50% - 10px);
+	  top: calc(75% - 7px);
+	  transform: rotate(45deg) translate(50%, 50%);
+	  border: 3px solid #fff;
+  }
+
+  .section-heading{
+	border-bottom: 3px solid var(--themeRed);
+	text-align: center;
+  }

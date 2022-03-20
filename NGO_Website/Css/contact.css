@@ -1,0 +1,172 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Balsamiq Sans', cursive;
+}
+.logo{
+    color: rgb(229, 255, 0);
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+nav ul li a:hover{
+	background-color: rgb(177, 43, 43);
+}
+
+.navbar-custom {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: rgba(7, 7, 7, 0.582);
+}
+
+.hero {
+    padding-top: 10.5rem;
+    padding-bottom: 6rem;
+    color: #000; 
+	font-family: Californian FB;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 120px;
+	/* line-height: 138px; */
+	font-family: Californian FB;
+    /* background-image: url("/img/About.jpg"); */
+    background-repeat: no-repeat; 
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+	height: 580px;
+  }
+
+.heading{
+	position: absolute;
+	width: 339px;
+	height: 70px;
+	left: 480px;
+	top: 160px;
+	font-family: Californian FB;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 80px;
+	/* line-height: 138px; */
+	color: #000000;
+}
+
+.button{
+	position: absolute;
+	width: 270px;
+	left: 500px;
+	top: 280px;
+	background: #ff0000;
+	color: white;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-style: normal;
+	font-size: 20px;
+	line-height: 50px;
+	text-align: center;
+	font-weight: normal;
+}
+
+.para{
+	position: absolute;
+	width: 700;
+	left: 440px;
+	top: 360px;
+	color: white;
+	font-family: Californian FB;
+	font-style: normal;
+	font-size: 20px;
+	line-height: 24px;
+    background-color: rgb(196, 120, 231);
+	padding: 15px 20px;
+}
+
+
+.contact .info {
+    padding: 20px 40px;
+    background: #f7e759;
+    color: #131313;
+    text-align: center;
+    border: 1px solid #fff;
+  }
+  
+  .contact .info i {
+    font-size: 30px;
+    color: #a31818;
+    margin-bottom: 15px;
+  }
+  
+  .contact .info h4 {
+    padding: 0;
+    margin: 0 0 10px 0;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .contact .info p {
+    font-size: 15px;
+  }
+  .rounded-cor{
+    border-radius: 50px;
+  }
+
+   /* Footer Start */
+
+footer{
+	background-color: #000;
+	color: white;
+	padding: 50px 0;
+	font-size: 14px;
+}
+
+footer .container{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 50px;
+}
+
+footer .title{
+	font-size: 20px;
+	font-weight: 600;
+	text-transform: uppercase;
+	border-bottom: 2px solid;
+	margin-bottom: 30px;
+	padding: 0 0 5px 0;
+}
+
+footer p{
+	margin-bottom: 10px;
+}
+
+footer .linkContainer ul{
+	list-style-type: none;
+}
+
+footer .linkContainer ul li a{
+	text-decoration: none;
+	color: #7f7f7f;
+	margin-bottom: 10px;
+	display: inline-block;
+}
+
+footer .newsLetterContainer img{
+	height: 20px;
+	margin-bottom: 11px;
+}
+
+footer .newsLetterContainer input{
+	background-color: transparent;
+	border: 1px solid #7f7f7f;
+	outline: none;
+	padding: 10px 15px;
+	width: 100%;
+	border-radius: 30px;
+	color: #ccc;
+}
+/* Footer Ends */

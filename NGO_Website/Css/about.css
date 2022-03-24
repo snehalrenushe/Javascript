@@ -34,7 +34,7 @@ nav ul li a:hover{
 	font-size: 120px;
 	/* line-height: 138px; */
 	font-family: Californian FB;
-    background-image: url("/img/About.jpg");
+    background-image: url("../img/About.jpg");
     background-repeat: no-repeat; 
     background-attachment: scroll;
     background-position: center;

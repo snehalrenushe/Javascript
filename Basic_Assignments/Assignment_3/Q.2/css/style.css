@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.logo{
+    padding-left: 90px;
+    padding-top: 10px;
+}
+
+.banner{
+    background-image: url("../img/nature\ scene.jpg");
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+.navbar{
+    display: flex;
+    height: 80px; 
+    background-color: white;  
+    position: sticky;
+    position: fixed;
+    width: 1500px;
+}
+
+.navlist li{
+    display: inline;
+    margin: 20px;
+    float: right;
+}
+
+.navlist{
+    padding: 10px;
+}
+
+.navlist ul{
+    display: flex;
+    padding-left: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.navlist a{
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: black;
+}
+
+/* Banner content */
+
+.content h4{
+    color: rgb(61, 60, 60);
+    padding-top: 200px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.content p{
+    text-align: center;
+    width: 800px;
+    padding-left: 250px;
+    padding-top: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.banner button{
+   margin: 20px 545px;
+   font-size: 20px;
+   background-color: rgba(25, 111, 240, 0.801);
+   color: white;
+   border-radius: 7px;
+   display: inline;
+   border: none;
+   text-decoration: none;
+   padding: 15px 32px;
+}
+
+/* first Paragraph */
+
+.para{
+    border: 1px solid rgb(199, 190, 190);
+    padding: 20px 45px;
+    font-size: 18px;
+    background-color: #00B1C8;
+    color: white;
+}
+
+
+/* Two Boxes middle Section */
+
+.box{
+    display: flex;
+    margin: 7px;
+}
+
+.first{
+    margin: 10px 20px;
+    border: 1px solid gray;
+    padding: 10px;
+    background-color: #b6e2e7;
+    font-size: 12;
+}

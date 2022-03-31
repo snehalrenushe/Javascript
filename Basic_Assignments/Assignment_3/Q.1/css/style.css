@@ -1,0 +1,135 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins';
+}
+/* Navbar*/
+.logo{
+    padding-left: 40px;
+}
+.navbar{
+    background-color: rgb(149, 240, 225);
+    display: flex;
+    height: 80px;
+}
+
+.navlist li{
+    display: inline;
+    margin: 20px;
+    float: right;
+}
+
+.navlist{
+    padding: 10px;
+}
+
+.navlist ul{
+    display: flex;
+    padding-left: 650px;
+    justify-content: center;
+    align-items: center;
+}
+
+.navlist a{
+    text-decoration: none;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-size: 16px;
+    color: black;
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+
+/* Main Container*/
+.container{
+    padding-left: 45px;
+    display: flex;
+    background-color: rgba(241, 235, 235, 0.993);
+    width: 1217px;
+    margin-bottom: 30px;
+}
+
+.banner{
+    padding-top: 20px;
+}
+
+.banner h4{
+    font-size: 24px;
+    width: 700px;
+    text-align: center;
+    padding: 20px 0px 20px 5px;
+}
+
+.first p{
+    margin: 10px;
+    padding-top: 6px;
+}
+
+
+.header{
+    background-color: rgb(0, 255, 157);
+    float: left;
+    display: inline;
+}
+
+.header p{
+    font-weight: bold;
+}
+
+.menu{
+    display: flex;
+    margin-top: 8px;
+}
+
+.event{
+    align-items: center;
+    background-color: rgb(160, 241, 210);
+}
+
+.event p{
+    padding: 6px 0 0 5px;
+    font-size: 18px;
+}
+
+.quote{
+    margin-top: 20px;
+    background-color: rgb(185, 214, 209);
+    width: 840px;
+}
+
+.quote h5{
+    padding: 10px 100px;
+    font-size: 20px;
+}
+
+
+/* Right Section*/
+.details{
+    background-color: rgb(208, 230, 226);
+    margin-left: 15px;
+    width: 300px;
+}
+
+.details img{
+    align-items: center;
+    margin: 20px;
+}
+
+.basic{
+    display: flex;
+    margin: 10px;
+}
+
+.title p{
+    font-weight: bold;
+}
+
+.ans p{
+    padding-left: 30px;
+}

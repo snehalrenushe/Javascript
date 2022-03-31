@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* banner section */
+.banner{
+    background-color: #333131;
+    height: 400px;
+    background-repeat: no-repeat;
+    
+}
+
+.first{
+    display: flex;
+}
+
+.right{
+    display: inline;
+    /* padding-top: 2px; */
+}
+
+.right ul{
+    display: flex;
+    list-style: none;
+    padding-left: 67%;
+    width: 400px;
+    color: rgb(194, 188, 188);
+    font-weight: bold;
+}
+
+.right ul li{
+    margin: 20px;
+}
+
+.heading{
+    padding-left: 20%;
+    padding-top: 6%;
+    font-size: 50px;
+    color: white;
+}
+
+.right p{
+    padding-left: 72%;
+    padding-top: 30%;
+    color: rgb(194, 188, 188);
+    font-size: 16px;
+    width: 400px;
+}
+
+.info{
+    font-size: 16px;
+    color: white;
+    width: 500px;
+    padding-left: 30%;
+    padding-top: 30px;
+    text-align: center;
+}
+
+button{
+    margin: 20px 545px;
+    font-size: 16px;
+    background-color: #FF002E;
+    color: white;
+    border-radius: 7px;
+    display: inline;
+    border: none;
+    text-decoration: none;
+    padding: 15px 32px;
+ }
+
+ /* Container Section */
+
+.box{
+    background-color: #fae2e7;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 160px 20px 160px;
+}
+
+.container{
+    width: 1300px;
+    max-width: 100%;
+    margin: 30px 0;
+}
+
+.container .first{
+    display: inline;
+    margin-top: 20px;
+    width: 800px;
+}
+
+.first{
+    flex-wrap: wrap;
+}
+
+.box .first p{
+    width: 300px;
+    color: rgb(80, 79, 79);
+}
+
+.box h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* footer */
+
+.footer{
+    background-color: #333131;
+    padding: 20px 100px;
+}
+
+.copyright{
+    /* width: 500px; */
+    padding-top: 10px;
+    padding-left: 20px;
+    color: rgb(194, 188, 188);
+    font-size: 16px;
+}
+
+.main{
+    display: flex;
+}
+
+.lists ul{
+    display: flex;
+    list-style: none;
+    margin-left: 600px;
+    width: 300px;
+    color: rgb(194, 188, 188);
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.lists ul li{
+    margin: 10px;
+    display: inline;
+}

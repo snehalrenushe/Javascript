@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(212, 220, 220);
+}
+
+.container{
+    background-color: rgb(243, 210, 226);
+    width: 90%;
+    margin: auto;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Navbar  */
+.navlist-item{
+    background-color: rgb(255, 0, 119);
+    color: white;
+    display: inline;
+    float: left;
+    margin: 20px 111.6px 20px 0px;
+    padding: 10px 45px 10px 32px;
+    font-size: 20px;
+}
+
+.navlist-item p{
+    text-align: center;
+}
+
+.reserv{
+    margin-right: 0px;
+}
+
+/* Banner Images */
+
+.banner-images{
+    padding-top: 20px;
+}
+.main-image{
+    background-image: url("../img/banner.jpg");
+    display: inline;
+    float: left;
+    width: 760px;
+    height: 500px;
+}
+
+.main-image h1{
+    padding: 100px 0 0 20px;
+    font-size: 48px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: rgb(255, 0, 98);
+    text-transform: uppercase;
+}
+
+.main-image p{
+    margin-top: 20px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(138, 18, 118);
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.secondary-images{
+    float : right;
+    margin-bottom: 5px;
+    margin-top: -500px;
+}
+
+.tacos{
+    background-image: url("../img/tacos.png");
+    width: 350px;
+    height: 240px;
+    margin-bottom: 25px;
+    background-repeat: no-repeat;
+}
+
+.beer{
+    background-image: url("../img/beer.png");
+    width: 350px;
+    height: 231px;
+    background-repeat: no-repeat;
+}
+
+.secondary-images .heading{
+    color: white;
+    font-size: 56px;
+    font-weight: bold;
+    padding-top: 60px;
+    text-align: center;
+}
+
+.secondary-images .subheading{
+    color: white;
+    font-size: 32px;
+    text-align: center;
+}
+
+/* About Items */
+
+.box{
+    background-color: rgb(255, 0, 119);
+    color: white;
+    display: inline;
+    float: left;
+    margin: 20px 60px 20px 0px;
+    padding: 10px 45px 10px 32px;
+    font-size: 16px;
+}
+
+.box .heading{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.box .subheading{
+    width: 102.4px;
+    text-align: center;
+    font-size: 12px;
+}
+.reserve{
+    margin-right: 0px;
+}
+
+/* Single Dish Details */
+
+.single-dish{
+    background-color: rgb(251, 168, 218);
+    margin: 20px 0px;
+}
+
+.image{
+    display: inline;
+    float: left;
+}
+
+.single-dish img{
+    margin: 20px;
+}
+
+.details{
+    margin-top: -300px;
+    height: 300px;
+}
+
+.details h2{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.details p{
+    font-size: 18px;
+    margin-top: 10px;
+    width: 800px;
+    margin: 0px 0px 20px 300px;
+}
+
+.details button{
+    font-size: 20px;
+    background-color: rgb(255, 0, 119);
+    color: white;
+    border-radius: 7px;
+    display: inline;
+    border: none;
+    text-decoration: none;
+    padding: 8px 16px;
+    margin-top: 10px;
+}
+
+/* Instant Games */
+
+.Instant-games-heading{
+    padding: 20px 0px 20px 0px;
+}
+
+.Instant-games-heading h1{
+    padding-left: 460px;
+    display: inline;
+    float: left;
+    margin-top: -20px;
+}
+
+.horizontal-row{
+    width: 480px;
+    display: inline;
+    float: left;
+}
+
+.before{
+    padding-right: 40px;
+}
+
+hr{
+    border: 2px solid black;
+}
+
+.after{
+    float: right;
+    margin-top: -20px;
+    padding-left: 20px;
+}
+
+.gameimg{
+    height: 450px;
+}
+.gameimg img{
+    margin: 10px 20px 10px 0px;
+}
+
+/* Footer */
+
+.footer{
+    background-color: rgb(255, 0, 119);
+    height: 190px;
+}
+
+.list{
+    display: inline;
+    float: left;
+    margin: 20px 200px;
+    font-size: 20px;
+    color: white;
+}
+
+.list ul li{
+    list-style: none;
+    line-height: 30px;
+}
+
+.logo{
+    margin-top: 80px;
+    padding-left: 850px;
+}
+
+.logo img{
+    padding-top: 40px;
+}

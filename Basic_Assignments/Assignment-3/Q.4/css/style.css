@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    height: 810px;
+    background-color: white;
+}
+
+body{
+    background-color: #cbc4c6;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Banner */
+
+.banner {
+    background-color: #333131;
+    height: 400px;
+    background-repeat: no-repeat;
+}
+
+.heading{
+    padding-top: 100px;
+    padding-left: 200px;
+    color: white;
+    display: inline;
+    float: left;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.details{
+    padding-left: 700px;
+    color: rgb(194, 188, 188);
+    font-size: 16px;
+    margin: -50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.navlist ul{
+    float: left;
+}
+
+.navlist a{
+    text-decoration: none;
+    float: left;
+    padding: 15px 20px 0px 0px;
+    color: black;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(194, 188, 188);
+    font-size: 16px;
+}
+
+.navlist-item{
+    display: inline;
+} 
+
+.time{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.info {
+    font-size: 16px;
+    color: white;
+    width: 800px;
+    padding-left: 32%;
+    padding-top: 120px;
+}
+
+button {
+    margin: 20px 465px;
+    font-size: 16px;
+    background-color: #FF002E;
+    color: white;
+    border-radius: 7px;
+    display: inline;
+    border: none;
+    text-decoration: none;
+    padding: 15px 42px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Middle Section */
+
+.Middle {
+    width: 1300px;
+    max-width: 100%;
+    margin: 30px 0;
+}
+
+.box {
+    background-color: #988d8d;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 60px 20px 60px;
+    display: inline;
+    float: left;
+    width: 1138px;
+}
+
+.Middle .first {
+    display: inline;
+    margin-top: 40px;
+    width: 800px;
+    margin-top: -326px;
+}
+.first {
+    flex-wrap: wrap;
+    margin: 60px;
+}
+
+.first p{
+    width: 300px;
+}
+
+.second{
+    float: right;
+    padding-top: 5px;
+    padding-left: 130px;
+    display: inline;
+}
+
+.third{
+    display: inline;
+    float: right;
+    margin-top: -350px;
+}
+
+/* Footer Section */
+
+.footer{
+    background-color: #333131;
+    padding: 20px 100px;
+    width: 90%;
+    margin: auto;
+}
+
+.copyright{
+    padding-left: 20px;
+    color: rgb(194, 188, 188);
+    font-size: 16px;
+    display: inline;
+    float: left;
+}
+
+.lists ul{
+    float: right;
+    margin-top: -20px;
+}
+
+.lists li{
+    text-decoration: none;
+    padding: 15px 20px 0px 0px;
+    color: black;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(194, 188, 188);
+    font-size: 16px;
+    display: inline;
+}

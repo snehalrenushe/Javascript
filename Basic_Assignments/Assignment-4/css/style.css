@@ -1,0 +1,998 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-container{
+    width: 95%;
+    margin: auto;
+    background-color: #F8F8F8;
+    height: 7300px;
+}
+
+/* Navbar */
+.navbar{
+    height: 70px;
+    margin-top: 10px;
+    background-color: white;
+}
+
+.logo img{
+    width: 50px;
+    margin-left: 100px;
+    clear: right;
+}
+
+.logo{
+    display: inline;
+    clear: left;
+    float: left;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.name p{
+    font-family: 'Inter';
+    font-size: 30px;
+    color: #3C3B3B;
+    padding-left: 180px;
+    padding-top: 10px;
+    font-weight: bold;
+    height: 48px;
+}
+
+.name{
+    display: inline;
+}
+
+.icon img{
+    width: 20px;
+    margin: 10px;
+}
+.searchbar{
+    width: 300px;
+    height: 40px;
+    background: #E1E8F0;
+    border-radius: 8px;
+    clear: right;
+    display: inline;
+    float: left;
+    margin-left: 450px;
+    margin-top: -50px;
+}
+
+.para p{
+    width: 344px;
+    height: 28px;
+    padding-left: 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    color: #A6AEBF;
+    display: inline;
+    float: left;
+    clear: both;
+    margin-top: -37px;
+}
+
+.navlist{
+    float: right;
+    width: 400px;
+    height: 29px;
+    clear: left;
+    display: inline;
+    margin-top: -40px;
+}
+
+.nav-item{
+    display: inline;
+    clear: left;
+    margin: 20px;
+    text-decoration: none;
+}
+
+.nav-item a{
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 15px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #3C3B3B;
+    font-weight: bold;
+}
+
+.navlist img {
+    width: 45px;
+    margin-left: 304px;
+    margin-top: -37px;
+}
+
+/* Banner Section Heading Boxes*/
+
+.banner-section{
+    background-color: #EFF2F7;
+    height: 800px;
+}
+
+.banner-logo img{
+    width: 25px;
+    margin-left: 90px;
+    margin-top: 10px;
+}
+.points{
+    padding-top: 20px;
+    padding-left: 170px;
+}
+
+.box{
+    background-color: white;
+    width: 200px;
+    height: 60px;
+    display: inline;
+    float: left;
+    clear: right;
+    margin-right: 33px;
+    border-radius: 20px;
+}
+
+.headline p{
+    font-size: 10px;
+    padding-left: 50px;
+    font-family: 'Inter';
+    font-weight: bold;
+}
+
+.technology{
+    padding-left: 20px;
+}
+
+.space{
+    padding-left: 40px;
+}
+
+.dots img{
+    width: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+/* Main Banner Section */
+
+.left-banner{
+    margin-left: 180px;
+    display: inline;
+    float: left;
+    clear: left;
+}
+.heading{
+    width: 140px;
+    height: 30px;
+    left: 287px;
+    top: 496px;
+    background: #BEE2F8;
+    border-radius: 10px;
+    margin-top: 80px;
+}
+
+.heading p{
+    margin-top: 50px;
+    width: 129px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    padding-left: 20px;
+    padding-top: 6px;
+    color: #2C2D2F;
+}
+
+.main-heading{
+    width: 450px;
+    height: 160px;
+    left: 287px;
+    top: 629px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 50px;
+    color: #2E3747;
+    margin-top: 50px;
+}
+
+.info p{
+    width: 570px;
+    height: 56px;
+    left: 294px;
+    top: 896px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 29px;
+    color: #9fa4ab;
+    margin-top: 30px;
+}
+
+.right-banner img{
+    width: 320px;
+    height: 400px;
+    border-radius: 10px 50px 50px 50px;
+    margin-top: 50px;
+}
+
+/* News Box */
+
+.news{
+    margin-top: 40px;
+    margin-left: 170px;
+}
+.news-box{
+    width: 290px;
+    height: 180px;
+    left: 748px;
+    top: 1160px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    display: inline;
+    float: left;
+    clear: right;
+    margin-right: 15px;
+}
+
+.news-img img{
+    width: 120px;
+    height: 150px;
+    margin: 15px;
+    border-radius: 20px;
+    display: inline;
+    float: left;
+    clear: left;
+}
+
+.news-heading p{
+    width: 130px;
+    height: 130px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    color: #645759;
+    float: right;
+    clear: right;
+    padding-top: 20px;
+}
+
+.details{
+    margin-left: 160px;
+}
+
+.details-name p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 20px;
+    color: #645759;
+    float: left;
+    clear: left;
+    display: inline;
+    margin-top: -76px;
+}
+
+.details-date p{
+    color: #9fa4ab;
+    font-size: 8px;
+}
+
+/* Editors Pick */
+
+.vertical-line{
+    border-left: 5px solid #E1E8F0;
+    height: 30px;
+    margin-left: 180px;
+    margin-top: 40px;
+    display: inline;
+    float: left;
+    clear: right;
+}
+
+.editors p{
+    margin-left: 25px;
+    display: inline;
+    margin-top: 45px;
+    clear: right;
+    float: left;
+    font-family: 'Inter';
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+}
+
+.editors-box{
+    margin-top: 40px;
+    margin-left: 180px;
+    width: 980px;
+    /* padding-top: 30px; */
+    clear: left;
+}
+
+.editor-info{
+    width: 290px;
+    height: 300px;
+    left: 748px;
+    top: 1160px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    display: inline;
+    float: left;
+    clear: right;
+    margin-right: 15px;
+    margin-top: 40px;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+
+.first-name{
+    background-color: #C7F6D6;
+    border-radius: 6px;
+    width: 140px;
+    height: 20px;
+}
+
+.first-name p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    color: #5B5D71;
+    padding-top: 3px;
+    padding-left: 20px;
+}
+
+.editor-heading p{
+    width: 260px;
+    height: 86px;
+    left: 305px;
+    top: 1712px;
+    font-family: 'Inter';
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 20px;
+    color: #5B5D71;
+}
+
+.editor-para{
+    color: #B9C2CD;
+    width: 250px;
+}
+
+.editor-details{
+    margin-top: 20px;
+}
+
+.editor-img img{
+    width: 50px;
+    border-radius: 50%;
+    display: inline;
+    float: left;
+    clear: left;
+}
+
+.editor-name p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    color: #645759;
+    display: inline;
+    margin-left: 20px;
+}
+
+.editor-date p{
+    color: #9fa4ab;
+    font-size: 8px;
+    display: inline;
+    float: left;
+    clear: right;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 10px;
+}
+
+
+/* What's New */
+
+.whatsnew{
+    margin-left: 25px;
+    display: inline;
+    margin-top: 45px;
+    clear: right;
+    float: left;
+    font-family: 'Inter';
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+}
+
+.new-details{
+    margin-top: 40px;
+}
+
+.new-left{
+    display: inline;
+    float: left;
+    clear: both;
+}
+
+.left-first{
+    width: 290px;
+    height: 350px;
+    /* display: inline;
+    float: left;
+    clear: right;
+    clear: left; */
+    margin-top: 40px;
+    padding-top: 60px;
+    margin-left: 180px;
+}
+
+.left-second{
+    width: 290px;
+    height: 250px;
+    /* display: inline;
+    float: left;
+    clear: right;
+    clear: left; */
+    margin-top: 40px;
+    padding-top: 60px;
+    margin-left: 180px;
+}
+
+.new-middle{
+    display: inline;
+    float: left;
+    clear: left;
+    clear: right;
+}
+
+.middle-first{
+    width: 290px;
+    height: 300px;
+    display: inline;
+    float: left;
+    clear: both;
+    margin-top: -640px;
+    margin-left: 500px;
+}
+
+.middle-second{
+    width: 290px;
+    height: 340px;
+    background-color: rgb(255, 255, 255);
+    display: inline;
+    float: left;
+    clear: both;
+    margin-top: -341px;
+    margin-left: 500px;
+}
+
+.middle-details{
+    margin-left: 25px;
+}
+
+.second-name{
+    width: 92px;
+    height: 27px;
+    background: #BEE2F8;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.second-name p{
+    width: 45px;
+    height: 24px;
+    font-family: 'Inter';
+    font-weight: bold;
+    font-size: 13px;
+    color: #5B5D71;
+    padding-top: 5px;
+}
+
+.second-heading p{
+    width: 300px;
+    height: 86px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 150.02%;
+    color: #5B5D71;
+    margin-top: 20px;
+}
+
+.second-para p{
+    width: 260px;
+    height: 76px;
+    font-family: 'Inter';
+    font-weight: normal;
+    font-size: 15px;
+    color: #B9C2CD;
+}
+
+.right-first{
+    width: 290px;
+    height: 180px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    /* float: right; */
+    clear: left;
+    display: inline;
+    margin-top: -646px;
+    float: left;
+    margin-left: 800px;
+}
+
+.first-img img{
+    width: 120px;
+    height: 150px;
+    margin: 15px;
+    border-radius: 20px;
+    display: inline;
+    float: left;
+    clear: left;
+}
+
+.first-heading p{
+    width: 130px;
+    height: 130px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    color: #645759;
+    float: right;
+    clear: right;
+    padding-top: 20px;
+}
+
+.right-details{
+    margin-left: 160px;
+}
+
+.right-name p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 20px;
+    color: #645759;
+    float: left;
+    clear: left;
+    display: inline;
+    margin-top: -76px;
+}
+
+.right-date p{
+    color: #9fa4ab;
+    font-size: 8px;
+}
+
+.right-second{
+    width: 290px;
+    height: 180px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    /* float: right; */
+    clear: left;
+    display: inline;
+    margin-top: -410px;
+    float: left;
+    margin-left: 800px;
+}
+
+.right-third{
+    width: 290px;
+    height: 180px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    /* float: right; */
+    clear: left;
+    display: inline;
+    margin-top: -180px;
+    float: left;
+    margin-left: 800px;
+}
+
+.head p{
+    color: white;
+}
+
+.left-middle{
+    margin-top: -50px;
+}
+
+
+/* Container Image */
+
+.mystery-image{
+    width: 1050px;
+    height: 400px;
+    background-color: beige;
+    margin-top: 1200px;
+    margin-left: 100px;
+    background-repeat: no-repeat;
+}
+
+.middle-container{
+    width: 400px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    display: inline;
+    clear: both;
+    float: left;
+    margin-top: 100px;
+    margin-left: 320px;
+}
+
+.mystery-name{
+    background-color: #FEFCBF;
+    border-radius: 6px;
+    width: 140px;
+    height: 20px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.mystery-name p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    color: #5B5D71;
+    padding-top: 3px;
+    padding-left: 20px;
+}
+
+.mystery{
+    margin-left: 50px;
+    text-align: center;
+}
+
+.mystery-img{
+    margin-left: 123px;
+    margin-top: -30px;
+}
+
+.mystery-title{
+    margin-top: 20px;
+    display: inline;
+    float: left;
+    clear: both;
+    margin-left: 173px;
+    margin-top: -30px;
+}
+
+/* Energy & Environment */
+
+.energy-image img{
+    width: 290px;
+    margin: 0px;
+    border-radius: 20px;
+}
+
+.energy-info{
+    padding-left: 0px;
+    padding-top: 0px;
+    height: 420px;
+}
+
+.energy-heading p{
+    width: 250px;
+    height: 60px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 140.02%;
+    color: #645759;
+    margin: auto;
+}
+
+.energy-para {
+    color: #B9C2CD;
+    width: 250px;
+}
+
+.energy-para p{
+    padding-left: 20px;
+    margin-top: 16px;
+}
+
+.energy-details{
+    margin-left: 20px;
+}
+
+/* Physics & Mathematics */
+
+.physics-info {
+    width: 440px;
+    height: 276px;
+}
+
+.physics-img img{
+    width: 220px;
+    height: 276px;
+    margin: 0px;
+}
+
+.physics-heading p {
+    width: 160px;
+    height: 130px;
+    padding-top: 20px;
+    font-size: 16px;
+    margin-left: 0px;
+    display: inline;
+    float: left;
+    margin-left: 30px;
+    line-height: 25px;
+}
+
+.physics-para p {
+    display: inline;
+    float: left;
+    margin-left: 230px;
+    width: 200px;
+    font-size: 12px;
+    clear: both;
+    margin-top: -145px;
+}
+
+.physics-details {
+    margin-left: 252px;
+    display: inline;
+    float: left;
+    width: 200px;
+    margin-top: -76px;
+}
+
+
+/* Newsletter */
+
+.newsletter-image img{
+    width: 100px;
+    display: inline;
+    float: left;
+    clear: both;
+    margin: 20px;
+}
+
+.newsletter {
+    width: 891px;
+    height: 300px;
+    background-color: white;
+    margin-top: 1006px;
+    margin-left: 180px;
+}
+
+.newsletter-heading p{
+    width: 451px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 127.52%;
+    color: #645759;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.newsletter-para p{
+    width: 762px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    margin-left: 239px;
+    margin-top: 30px;
+    color: #718096;
+}
+
+.email{
+    width: 220px;
+    height: 36px;
+    background: #E1E8F0;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 30px;
+    margin-left: 319px;
+}
+
+.email p{
+    width: 150px;
+    height: 28px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    color: #A6AEBF;
+    padding-top: 10px;
+    padding-left: 16px;
+}
+
+button{
+    margin-left: 350px;
+    margin-top: 30px;
+    font-size: 16px;
+    padding: 10px;
+    width: 160px;
+    background: #667EEA;
+    border-radius: 50px;
+    border: none;
+}
+
+button p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 29px;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+/* Footer */
+
+.footer{
+    height: 300px;
+    background-color: #ffffff;
+    margin-top: 100px;
+}
+
+.footer-first {
+    display: inline;
+    float: left;
+}
+
+.footer-first h3{
+    width: 154px;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 16px;
+    color: #645759;
+    margin-left: 250px;
+    padding-top: 50px;
+}
+
+.footer-first p{
+    width: 238px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    color: #9D9798;
+    margin-left: 200px;
+    margin-top: 30px;
+}
+
+.footer-first h5{
+    width: 202px;
+    height: 48px;
+    left: 313px;
+    top: 10496px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    color: #645759;
+    margin-left: 230px;
+    margin-top: 30px;
+}
+
+.footer-second h3{
+    width: 154px;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 16px;
+    color: #645759;
+    margin-left: 45px;
+    padding-top: 50px;
+}
+
+.footer-second li{
+    text-decoration: none;
+    list-style: none;
+    width: 113px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    color: #9D9798;
+    margin-left: 39px;
+    margin-top: 20px;
+}
+
+.footer-second{
+    display: inline;
+    float: left;
+}
+
+.footer-third h3{
+    margin-top: -138px;
+    width: 140px;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 16px;
+    color: #645759;
+    margin-left: 692px;
+    padding-top: -146px;
+}
+
+.footer-third li{
+    text-decoration: none;
+    list-style: none;
+    width: 238px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    color: #9D9798;
+    margin-left: 692px;
+    margin-top: 20px;
+}
+
+.footer-third{
+    display: inline;
+    float: left;
+}
+
+.footer-forth h3{
+    width: 179px;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 16px;
+    color: #645759;
+    margin-left: 885px;
+    padding-top: 50px;
+}
+
+.list li{
+    text-decoration: none;
+    list-style: none;
+    width: 238px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    color: #9D9798;
+    margin-left: 937px;
+    margin-top: 20px;
+}
+
+.links-icon {
+    display: inline;
+    float: left;
+    clear: both;
+    margin-left: 895px;
+    margin-top: -113px;
+}
+
+.links-icon img{
+    width: 30px;
+}
+
+.links-icon li{
+    list-style: none;
+}

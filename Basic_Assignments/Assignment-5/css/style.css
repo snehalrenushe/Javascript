@@ -1,0 +1,402 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Section */
+
+header{
+    height: 590px;
+    background-color: #3DBFFF;
+}
+
+    /* Navbar */
+nav p{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1.5rem;
+    margin-top: 3%;
+    margin-left: 3%;
+    color: #FFFFFF;
+    display: inline;
+    float: left;
+    clear: both;
+}
+
+nav ul{
+    display: inline;
+    margin-left: 55%;
+    margin-top: 3%;
+    float: left;
+    width: 29%;
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 10%;
+}
+
+nav a{
+    font-family: 'Arial';
+    color: white;
+    text-decoration: none;
+}
+
+.box a{
+    background-color: rgb(255, 255, 255);
+    display: inline;
+    float: right;
+    padding: 3%;
+    border-radius: 3.125rem;
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.box{
+    height: 2%;
+    margin-top: -7%;
+}
+
+    /* Heading */
+
+.heading{
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 3.5rem;
+    letter-spacing: 0.25em;
+    color: #FFFFFF;
+    margin-left: 18%;
+    padding-top: 10%;
+}
+
+    /* Vertical line */
+
+.vertical-line{
+    border-left: 8px solid white;
+    margin-left: 50%;
+    margin-top: 3%;
+    height: 150px;
+    position: absolute;
+    z-index: 3;
+}
+
+.arrow {
+    border: solid rgb(255, 255, 255);
+    border-width: 0 8px 8px 0;
+    display: inline-block;
+    padding: 200%;
+    margin-top: 200%;
+  }
+
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+
+  .down-arrow{
+    margin-top: 10%;
+    position: absolute;
+    margin-left: 48.7%;
+    z-index: 3;
+  }
+
+    /* Image */
+
+header img{
+    width: 50%;
+    padding-top: 5.8%;
+    margin-left: 25%;
+    position: relative;
+}
+
+/* Main Section */
+
+    /* first */
+
+.first-left{
+    background-color: rgb(252, 252, 252);
+    width: 50%;
+    height: 500px;
+    display: inline;
+    float: left;
+}
+
+.first-left h3{
+    width: 400px;
+    height: 147px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2rem;
+    color: #000000;
+    padding-left: 20%;
+    padding-top: 15%;
+}
+
+.first-left p{
+    padding-left: 20%;
+    padding-top: 13%;
+    width: 560px;
+    height: 123px;
+    font-family: 'Arial';
+    font-weight: 700;
+    font-size: 0.9rem;
+    line-height: 27px;
+    color: #C3C2C0;
+}
+
+.first-left h6{
+    padding-left: 20%;
+    padding-top: 13%;
+    font-size: 1.2rem;
+    font-family: 'Arial';
+}
+
+.first-left hr{
+    margin-left: 20%;
+}
+
+.first-hr{
+    width: 130px;
+    border: 2px solid #F4D50D;
+}
+
+
+.first-right img{
+    width: 50%;
+    height: 500px;
+}
+
+    /* Second */
+
+.second-left img{
+    width: 50%;
+    height: 500px;
+    display: inline;
+    float: left;
+}
+
+.second-right{
+    background-color: rgb(252, 252, 252);
+    width: 50%;
+    height: 500px;
+    display: inline;
+    float: right;
+}
+
+.second-right h3{
+    width: 600px;
+    height: 147px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2rem;
+    color: #000000;
+    padding-left: 20%;
+    padding-top: 15%;
+}
+
+.second-right p{
+    padding-left: 20%;
+    padding-top: 13%;
+    width: 560px;
+    height: 123px;
+    font-family: 'Arial';
+    font-weight: 700;
+    font-size: 0.9rem;
+    line-height: 27px;
+    color: #C3C2C0;
+}
+
+.second-right h6{
+    padding-left: 20%;
+    padding-top: 13%;
+    font-size: 1.2rem;
+    font-family: 'Arial';
+}
+
+.second-right hr{
+    margin-left: 20%;
+}
+
+.second-hr{
+    width: 130px;
+    border: 2px solid #FF8070;
+}
+
+    /* Third */
+
+.third-left img{
+    width: 50%;
+    height: 500px;
+    display: inline;
+    float: left;
+    position: relative;
+}
+
+.third-left h4{
+    position: absolute;
+    margin-top: 65%;
+    margin-left: 18%;
+    font-size: 1.6rem;
+    color: #2F2D2D;
+    font-family: 'Arial';
+    font-weight: bold;
+}
+
+.third-left p{
+    position: absolute;
+    margin-top: 70%;
+    width: 30%;
+    text-align: center;
+    margin-left: 10%;
+    color: #2F2D2D;
+    font-family: 'Arial';
+}
+
+.third-right img{
+    width: 50%;
+    height: 500px;
+    float: right;
+    position: relative;
+}
+
+.third-right img{
+    width: 50%;
+    height: 500px;
+    display: inline;
+    float: left;
+    position: relative;
+}
+
+.third-right h4{
+    position: absolute;
+    margin-top: 65%;
+    margin-left: 70%;
+    font-size: 1.6rem;
+    color: #2F2D2D;
+    font-weight: bold;
+    font-family: 'Arial';
+}
+
+.third-right p{
+    position: absolute;
+    margin-top: 70%;
+    width: 30%;
+    text-align: center;
+    margin-left: 60%;
+    color: #2F2D2D;
+    font-family: 'Arial';
+}
+
+/* Client Testimonials */
+
+.client h3{
+    font-family: 'Noto Serif';
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 54px;
+    letter-spacing: 0.15em;
+    margin-left: 32%;
+    margin-top: 86%;
+    color: #CCBABA;
+}
+
+.card-box{
+    width: 80%;
+    height: 90px;
+    margin: auto;
+    margin-top: 5%;
+}
+
+
+.card{
+    width: 30%;
+    height: 400px;
+    display: inline;
+    float: left;
+    margin-left: 2.5%;
+}
+
+.card img{
+    width: 25%;
+    border-radius: 50%;
+    margin-left: 35%;
+}
+
+.para{
+    margin-top: 20%;
+    text-align: center;
+    font-size: 0.8rem;
+    font-family: Arial;
+    color: #C3C2C0;
+    font-weight: bold;
+}
+
+.name{
+    margin-top: 15%;
+    margin-left: 36%;
+    font-weight: bold;
+    color: black;
+    font-size: 1rem;
+    font-family: Arial;
+}
+
+.post{
+    margin-left: 30%;
+    font-size: 0.7rem;
+    color: #C3C2C0;
+    margin-top: 3%;
+}
+
+/* Four Images */
+
+.img1 img{
+    width: 25%;
+    display: inline;
+    float: left;
+}
+
+/* Footer */
+
+footer{
+    height: 500px;
+    background-color: #9EDBCB;
+    margin-top: 50%;
+    font-family: Arial;
+    font-size: 1rem;
+    color: #458C7E;
+    font-weight: bolder;
+    padding-top: 12%;
+    padding-left: 45%;
+}
+
+footer ul{
+    margin-top: 6%;
+    margin-left: -99px;
+}
+
+footer li{
+    display: inline;
+    margin: 3%;
+}
+
+footer a{
+    text-decoration: none;
+    color: #458C7E;
+    font-size: 1.3rem;
+    font: arial;
+}
+
+.icons{
+    margin-top: 6%;
+    margin-right: 20%;
+}
+
+.icons i{
+    margin: 2%;
+}

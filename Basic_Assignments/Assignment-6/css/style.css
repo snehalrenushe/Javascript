@@ -1,0 +1,678 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #141C2F;
+}
+
+.container{
+    background-color: #141C2F;
+    width: 40vw;
+    margin: auto;
+    margin-top: 4%;
+}
+
+header{
+    display: flex;
+}
+
+.logo{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #EAF1FB;
+    width: 30%;
+}
+
+.logo{
+    max-width: 100%;
+}
+
+.logo h1{
+    font-size: 1.5rem;
+}
+
+.light{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #EAF1FB;
+    /* line-height: 2rem; */
+    padding-top: 0.4rem;
+    margin-left: 56%;
+    width: 20%;
+    display: flex;
+}
+
+span{
+    max-width: 100%;
+}
+
+.light i{
+    padding-top: 0.2rem;
+    margin-left: 1.2rem;
+}
+
+
+/* Searchbar Section */
+
+.searchbar{
+     background-color: #1f2b4d;
+     margin-top: 2rem;
+     border-radius: 1rem;
+}
+
+.search-container{
+   
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.search-icon{
+    width: 8%;
+}
+
+.fa-magnifying-glass {
+    color: #2558a4;
+    padding: 1rem;
+    max-width: 100%;
+    font-size: 1.5rem;
+}
+
+.username{
+    color: rgb(246, 234, 234);
+    margin-left: 0.5rem;
+    /* padding: 1rem; */
+    padding-top: 1rem;
+}
+
+.username p{
+    font-size: 1rem;
+}
+
+.button{
+    background-color: #0578F8;
+    margin: 0.3rem;
+    width: 20%;
+    border-radius: 0.5rem;
+    margin-left: 9.8rem;
+}
+
+.button p{
+    padding-left: 1.8rem;
+    padding-top: 0.6rem;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+/* Main Container */
+
+.main{
+    background-color: #1f2b4d;
+    margin-top: 2rem;
+    border-radius: 1rem;
+}
+
+.main-container{
+   padding: 2rem;
+   display: flex;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.git-image{
+    width: 20%;
+}
+
+.git-image img{
+    border-radius: 50%;
+    max-width: 100%;
+}
+
+.content{
+    margin-left: 2rem;
+}
+
+.details{
+    display: flex;
+    color: white;
+}
+
+.name{
+    font-weight: bold;
+}
+
+.date{
+    font-size: 0.8rem;
+    padding-top: 0.2rem;
+    margin-left: 6rem;
+}
+
+.octocat{
+    font-size: 0.8rem;
+    color: #2558a4;
+    margin-top: 0.3rem;
+}
+
+.para{
+    font-size: 0.8rem;
+    color: rgb(235, 227, 227);
+    margin-top: 1rem;
+}
+
+.for-tablet{
+    display: none;
+}
+
+.follow-details{
+    display: flex;
+    background-color: #141C2F;
+    color: rgb(235, 227, 227);
+    margin-top: 1rem;
+    padding: 0.6rem;
+    border-radius: 0.5rem;
+}
+
+.heading{
+    font-size: 0.8rem;
+}
+
+.follow-details h3{
+    font-size: 1rem;
+}
+
+.repo{
+    margin-right: 3rem;
+}
+
+.user-details{
+    color: white;
+    margin-top: 2rem;
+    display: flex;
+    font-size: 0.8rem;
+}
+
+.address{
+    display: flex;
+}
+
+.address p{
+    margin-left: 1rem;
+}
+
+.twitter{
+    display: flex;
+    margin-left: 2rem;
+}
+
+.twitter p{
+    margin-left: 1rem;
+}
+.first{
+    margin-bottom: 1rem;
+}
+
+.second{
+    margin-bottom: 1rem;
+}
+
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 599px) And (max-width: 768px){
+
+    .container {
+        width: 80vw;
+    }
+
+    .light{
+        padding-top: 2.7rem;
+        margin-left: 55%;
+        width: 30%;
+    }
+
+    span{
+        padding-top: 0.2rem;
+        font-size: 100%;
+    }
+
+    .logo{
+        margin-top: 5%;
+    }
+
+    .logo h1{
+        font-size: 2rem;
+    }
+
+    .searchbar{
+        margin-top: 1rem;
+    }
+
+    .search-icon{
+        width: 4%;
+    }
+
+    .main{
+        margin-top: 1rem;
+    }
+
+    .main-container{
+        padding: 3rem;
+    }
+
+    .username {
+        margin-left: 2.5rem;
+        padding-top: -0.7rem;
+    }
+
+    .username p {
+        font-size: 1rem;
+        width: 230%;
+    }
+
+    
+    .light i{
+        margin-left: 1.2rem;
+    }
+
+    .button {
+        width: 30%;
+        margin-left: 10.8rem;
+    }
+
+    .button p{
+        padding-left: 3.2rem;
+    }
+
+    .main-container{
+        flex-direction: column;
+    }
+
+    .git-image {
+        width: 30%;
+        height: 30%;
+    }
+
+    .content {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .details {
+        flex-direction: column;
+        margin-left: 14rem;
+        margin-top: -8rem;
+    }
+
+    .octocat{
+        margin-left: 14rem;
+        font-size: 1.2rem;
+    }
+
+    .name{
+        font-size: 1.5rem;
+    }
+
+    .date{
+        margin-left: 0;
+        font-size: 1.2rem;
+    }
+
+    .para{
+        margin-top: 5rem;
+        width: 100%;
+    }
+
+    .for-tablet{
+        display: block;
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+    }
+
+    .for-desktop{
+        display: none;
+    }
+
+    .repo {
+        margin-right: 4rem;
+    }
+
+    .heading {
+        font-size: 1.4rem;
+    }
+
+    .follow-details{
+        margin-top: 2rem;
+    }
+
+    .follow-details h3 {
+        font-size: 1.7rem;
+    }
+
+    .user-details{
+        margin-top: 3rem;
+        font-size: 1.2rem;
+    }
+}
+
+
+/* Extra Small devices (Android phone and small phones, 600px and below) */
+@media only screen and (min-width: 480px) And (max-width: 600px){
+    .container {
+        width: 90vw;
+    }
+
+    .light {
+        padding-top: 1.2rem;
+        margin-left: 45%;
+        width: 30%;
+    }
+
+    span{
+        padding-top: 0.2rem;
+        font-size: 150%;
+        margin-left: 0;
+    }
+
+    .fa-solid, .fas {
+        font-size: 2rem;
+    }
+
+    .logo{
+        margin-top: 1%;
+    }
+
+    .logo h1{
+        font-size: 2.5rem;
+    }
+
+    .searchbar{
+        margin-top: 1rem;
+    }
+
+    .search-icon{
+        width: 4%;
+    }
+
+    .main{
+        margin-top: 1rem;
+    }
+
+    .main-container{
+        padding: 2rem;
+    }
+
+    .username {
+        margin-left: 2.5rem;
+        padding-top: 1.3rem;
+    }
+
+    .username p {
+        font-size: 1rem;
+        width: 230%;
+    }
+
+    
+    .light i{
+        margin-left: 1.2rem;
+        margin-top: 0.4rem;
+    }
+
+    .button {
+        width: 30%;
+        margin-left: 0.8rem;
+    }
+
+    .button p {
+        padding-left: -0.7999999999999998rem;
+        font-size: 1.2rem;
+    }
+
+    .main-container{
+        flex-direction: column;
+    }
+
+    .git-image {
+        width: 30%;
+        height: 30%;
+    }
+
+    .content {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .details {
+        flex-direction: column;
+        margin-left: 9rem;
+        margin-top: -6rem;
+    }
+
+    .octocat{
+        margin-left: 9rem;
+        font-size: 1rem;
+    }
+
+    .name{
+        font-size: 1.5rem;
+    }
+
+    .date{
+        margin-left: 0;
+        font-size: 1rem;
+    }
+
+    .para{
+        margin-top: 3rem;
+        width: 100%;
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+
+    .for-tablet{
+        display: block;
+    }
+
+    .for-desktop{
+        display: none;
+    }
+
+    .repo {
+        margin-right: 4rem;
+    }
+
+    .heading {
+        font-size: 1rem;
+    }
+
+    .follow-details h3 {
+        font-size: 1.3rem;
+        text-align: center;
+    }
+
+    .user-details{
+        margin-top: 1rem;
+        font-size: 0.7rem;
+        flex-direction: column;
+    }
+
+    .fa-brands, .fab {
+        font-family: "Font Awesome 6 Brands";
+        font-weight: 400;
+        font-size: 1.5rem;
+    }
+
+    .fa-solid, .fas {
+        font-size: 1.5rem;
+    }
+
+    .right{
+        margin-left: -2rem;
+        margin-top: 1rem;
+    }
+
+    .fa-link {
+        font-size: 1.2rem;
+    }
+}
+
+/* Extra Small devices (Android phone and small phones, 600px and below) */
+@media only screen and (min-width: 290px) And (max-width: 479px){
+    .container {
+        width: 122vw;
+    }
+
+    .light {
+        padding-top: 1.2rem;
+        margin-left: 45%;
+        width: 30%;
+    }
+
+    span{
+        padding-top: 0.2rem;
+        font-size: 150%;
+        margin-left: 0;
+    }
+
+    .fa-solid, .fas {
+        font-size: 2rem;
+    }
+
+    .logo{
+        margin-top: 1%;
+    }
+
+    .logo h1{
+        font-size: 2.5rem;
+    }
+
+    .searchbar{
+        margin-top: 1rem;
+    }
+
+    .search-icon{
+        width: 4%;
+    }
+
+    .main{
+        margin-top: 1rem;
+    }
+
+    .main-container{
+        padding: 2rem;
+    }
+
+    .username {
+        margin-left: 2.5rem;
+        padding-top: 1.3rem;
+    }
+
+    .username p {
+        font-size: 1rem;
+        width: 230%;
+    }
+
+    
+    .light i{
+        margin-left: 1.2rem;
+        margin-top: 0.4rem;
+    }
+
+    .button {
+        width: 30%;
+        margin-left: 0.8rem;
+    }
+
+    .button p {
+        padding-left: -0.7999999999999998rem;
+        font-size: 1.2rem;
+    }
+
+    .main-container{
+        flex-direction: column;
+    }
+
+    .git-image {
+        width: 30%;
+        height: 30%;
+    }
+
+    .content {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .details {
+        flex-direction: column;
+        margin-left: 9rem;
+        margin-top: -6rem;
+    }
+
+    .octocat{
+        margin-left: 9rem;
+        font-size: 1rem;
+    }
+
+    .name{
+        font-size: 1.5rem;
+    }
+
+    .date{
+        margin-left: 0;
+        font-size: 1rem;
+    }
+
+    .para{
+        margin-top: 3rem;
+        width: 100%;
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+
+    .for-tablet{
+        display: block;
+    }
+
+    .for-desktop{
+        display: none;
+    }
+
+    .repo {
+        margin-right: 4rem;
+    }
+
+    .heading {
+        font-size: 1rem;
+    }
+
+    .follow-details h3 {
+        font-size: 1.3rem;
+        text-align: center;
+    }
+
+    .user-details{
+        margin-top: 1rem;
+        font-size: 0.7rem;
+        flex-direction: column;
+    }
+
+    .fa-brands, .fab {
+        font-family: "Font Awesome 6 Brands";
+        font-weight: 400;
+        font-size: 1.5rem;
+    }
+
+    .fa-solid, .fas {
+        font-size: 1.5rem;
+    }
+
+    .right{
+        margin-left: -2rem;
+        margin-top: 1rem;
+    }
+
+    .fa-link {
+        font-size: 1.2rem;
+    }
+}

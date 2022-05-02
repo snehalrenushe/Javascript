@@ -1,0 +1,478 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Kumbh+Sans:wght@400;700&family=Noto+Sans&family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container{
+    width:90%;
+    margin: auto;
+}
+.navbar{
+    background-color: #0C0C0C;
+    /* height: 15vh; */
+}
+
+.fa-bars{
+    display: none;
+}
+
+nav{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    max-height: 100%;
+    border-bottom: 0.1px solid #B3B3B3;
+}
+
+.logo{
+    width: 14%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.logo h1{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 1.8rem;
+    color: #DADADA;
+}
+
+.list{
+    margin-top: 2.4rem;
+    margin-bottom: 2rem;
+    margin-left: 12%;
+    width: 42%;
+}
+
+ul{
+    display: flex;
+    
+}
+
+.navlist-item{
+    list-style-type: none;
+    font-family: 'Noto Sans', sans-serif;
+    margin-right: 1rem;
+    padding-left: 1rem;
+}
+
+.navlist-item a{
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: #B3B3B3;
+    font-weight: bold;
+}
+
+.cart{
+    width: 6%;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    margin-left: 30%;
+}
+
+.cart img{
+    width: 8vh;
+}
+
+
+/* Header Section */
+
+.header-section{
+    background-color: #0C0C0C;
+    padding-top: 1%;
+}
+
+header{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    background-color: #0C0C0C;
+}
+
+.content{
+    width: 50%;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.image{
+    width:50%;
+}
+
+.image img{
+    width: 100%;
+    height: 100%;
+}
+
+.new-product{
+    margin-top: 18%;
+    letter-spacing: 0.6rem;
+    color: #B3B3B3;
+}
+
+.main-heading{
+    margin-top: 4%;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 4rem;
+    color: #FFFFFF;
+}
+
+.main-para{
+    margin-top: 4%;
+    font-size: 0.8rem;
+    width: 55%;
+    color: #B3B3B3;
+}
+
+.see-product{
+    width: 25%;
+    height: 6%;
+    margin-top: 4%;
+    background-color: #D87C49;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Device Section */
+
+.devices{
+    margin-bottom: 10rem;
+}
+
+.device-box{
+    width: 85%;
+    margin: auto;
+    display: flex;
+}
+
+.headphones{
+    max-width: 100%;
+}
+
+.box-image{
+    position: relative;
+    margin-left: 6rem;
+}
+
+.box-image img{
+    max-width: 60%;
+    margin-top: 5rem;
+}
+
+.box{
+    background-color: #F1F1F1;
+    position: absolute;
+    top: 115%;
+    width: 20%;
+    z-index: -1;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.heading{
+    padding-top: 6rem;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.shop{
+    display: flex;
+    margin-top: 0.1rem;
+    color: #7B726D;
+}   
+
+.name{
+    margin-left: 8rem;
+    font-size: 1rem;
+}
+
+.arrow{
+    margin-left: 0.6rem;
+    margin-bottom: 3rem;
+}
+
+.speaker{
+    margin-left: 10rem;
+}
+
+.boat-headphone{
+    margin-left: 10rem;
+}
+
+/* zx9-speaker Section */
+
+.zx9-speaker{
+    height: 75vh;
+}
+
+.zx9{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    height: 75vh;
+    background-color: #D87C49;
+}
+
+.zx9-content{
+    width: 50%;
+    font-family: 'Noto Sans', sans-serif;
+    max-height: 100%; 
+}
+
+.zx9-image{
+    width:50%;
+    /* padding-top: 4rem; */
+    margin-bottom: 6rem;
+}
+
+.zx9-image img{
+    height: 200%;
+}
+
+.zx9-content h1{
+    width: 2%;
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+    padding-left: 5rem;
+    padding-top: 6rem;
+}
+
+.zx9-content p{
+    color: #B3B3B3;
+    font-size: 1rem;
+    padding-left: 5rem;
+    width: 75%;
+}
+
+.zx9-button{
+    margin-left: 5rem;
+    padding: 0.3rem;
+    background-color: #1D2026;
+    height: 10%;
+}
+
+/* yx1 earphones section */
+
+.yx1-earphones{
+    height: 45vh;
+    margin-top: 5rem;
+}
+
+.yx1{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    height:45vh;
+}
+
+.yx1-content{
+    background-color: #F1F1F1;
+    height: 45vh;
+    width: 45%;
+    margin-right: 5%;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.yx1-content h1{
+    width: 80%;
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    padding-left: 5rem;
+    padding-top: 6rem;
+}
+
+.yx1-image{
+    background-color: brown;
+    width: 45%;
+    margin-left: 5%;
+}
+
+.yx1-image img{
+    max-width: 100%;
+    height: 100%;
+}
+
+.yx1-button{
+    background-color: #F1F1F1;
+    border: 1px solid black;
+    color: black;
+}
+
+/* Audio Section */
+
+.audio{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    height:45vh;
+}
+
+.audio-section{
+    margin-top: 5rem;
+}
+
+.audio-image img{
+    max-width: 100%;
+}
+
+.audio-image{
+    background-color: #F1F1F1;
+    /* height: 45vh; */
+    width: 45%;
+    margin-right: 5%;
+}
+
+.audio-content{
+    width: 45%;
+    margin-left: 5%;
+    height: 58vh;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.audio-content h1{
+    width: 90%;
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    padding-left: 5rem;
+    padding-top: 6rem;
+}
+
+.audio-content P{
+    font-size: 1rem;
+    padding-left: 5rem;
+    padding-top: 2rem;
+    width: 80%;
+    color: #B3B3B3;
+}
+
+.best{
+    color: #D87C49;
+}
+
+
+/* Footer Section */
+
+footer{
+    background-color: #0C0C0C;
+    height: 55vh;
+    margin-top: 8rem;
+    color: #DADADA;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.footer-section{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    max-height: 100%;
+}
+
+.footer-content{
+    width: 50%;
+}
+
+.footer-content h1{
+    padding-top: 5rem;
+}
+
+.footer-para{
+    padding-top: 2rem;
+}
+
+.copyright{
+    padding-top: 2rem;
+}
+.footer-nav{
+    width: 50%;
+}
+
+.footer-nav{
+    padding-left: 5rem;
+    padding-top: 5rem;
+}
+
+.social-media{
+    display: flex;
+    padding-top: 2rem;
+    padding-left: 6rem;
+}
+
+.social-media li{
+    text-decoration: none;
+    list-style: none;
+    margin: 1rem;
+}
+
+.fa-facebook-square{
+   font-size: 2rem;
+}
+
+.fa-twitter{
+    font-size: 2rem;
+}
+
+.fa-instagram{
+    font-size: 2rem;
+}
+
+
+/* Extra Small devices (Android phone and small phones, 600px and below) */
+@media only screen and (min-width: 400px) And (max-width: 600px){
+    .main-container{
+        width:225%;
+    }
+    
+    .list{
+        display: none;
+    }
+
+    .fa-bars{
+        display: block;
+        color: white;
+        font-size: 5rem;
+    }
+   
+    nav{
+        display: flex;
+    }
+
+    .logo {
+        margin-top: 2rem;
+        margin-left: 10rem;
+    }
+
+    .burger-menu{
+        margin-top: 2rem;
+    }
+
+    .logo h1 {
+        font-size: 4rem;
+    }
+
+    .cart {
+        width: 10%;
+        margin-top: 0.5rem;
+        margin-left: 42%;
+    }
+
+    .cart img {
+        width: 18vh;
+    }
+
+    header{
+        flex-direction: column;
+    }
+
+    .content{
+        width: 100%;
+        position: absolute;
+    }
+
+}

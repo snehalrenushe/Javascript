@@ -326,6 +326,7 @@ header{
     /* height: 45vh; */
     width: 45%;
     margin-right: 5%;
+    margin-top: 7rem;
 }
 
 .audio-content{
@@ -468,11 +469,251 @@ footer{
 
     header{
         flex-direction: column;
+        height: 130vh;
     }
 
-    .content{
+    .content {
         width: 100%;
         position: absolute;
+        margin-left: 12rem;
+        text-align: center;
+        margin-top: 6rem;
     }
 
+    .image {
+        width: 100%;
+        height: 100%;
+    }
+
+    .main-para {
+        margin-top: 4%;
+        font-size: 1.5rem;
+        width: 95%;
+        color: #B3B3B3;
+    }
+
+    .see-product {
+        width: 35%;
+        padding: 1rem;
+    }
+
+    .device-box{
+        flex-direction: column;
+    }
+
+    .headphones{
+        margin-left: 10rem;
+    }
+
+    .box {
+        width: 140%;
+        margin-top: 30em;
+        margin-left: -3rem;
+        height: 50vh;
+    }
+
+    .heading {
+        padding-top: 12rem;
+        text-align: center;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    .shop {
+        display: flex;
+        margin-top: 1.5rem;
+        color: #7B726D;
+        margin-left: 5rem;
+        /* font-size: 2rem; */
+    }
+
+    .name{
+        margin-left: 8rem;
+        font-size: 2rem;
+    }
+
+    .arrow{
+        font-size: 2.2rem;
+    }
+
+    .speaker {
+        margin-left: 10rem;
+        margin-top: 10rem;
+    }
+
+    .speaker-image {
+        background-color: #F1F1F1;
+        margin-top: 68rem;
+    }
+
+    .boat-headphone{
+        margin-top: 8rem;
+    }
+
+    .boat-headphone-image{
+        background-color: #F1F1F1;
+        margin-top: 109rem;
+    }
+
+    .zx9-speaker {
+        margin-top: 20rem;
+    }
+
+    .zx9{
+        flex-direction: column;
+        height: 130vh;
+    }
+
+    .zx9-image img {
+        height: 100%;
+    }
+
+    .zx9-image {
+        margin-left: 10rem;
+    }
+
+    .zx9-content{
+        margin-top: -21rem;
+        margin-left: 3rem;
+        width: 160vw;
+    }
+
+    .zx9-content h1 {
+        width: 100%;
+        font-size: 5rem;
+        padding-left: 6rem;
+        padding-top: 4rem;
+    }
+
+    .zx9-content p {
+        font-size: 2rem;
+        padding-left: 1rem;
+        width: 100%;
+        text-align: center;
+    }
+
+    .zx9-button {
+        width: 55%;
+        /* padding: 3rem; */
+        font-size: 2rem;
+        padding-top: 3rem;
+        padding-bottom: 5rem;
+        margin-left: 10rem;
+    }
+
+    .yx1-earphones {
+        margin-top: 29rem;
+    }
+
+    .yx1{
+        flex-direction: column;
+        height: 55vh;
+    }
+
+    .yx1-content {
+        width: 100%;
+        height: 60vh;
+    }
+
+    .yx1-content h1 {
+        font-size: 3rem;
+        padding-left: 12rem;
+    }
+
+    .yx1-button{
+        margin-left: 11rem;
+    }
+
+    .yx1-image{
+        display: none;
+    }
+
+    .audio-section{
+        margin-top: 4rem;
+    }
+
+    .audio{
+        flex-direction: column;
+    }
+
+    .audio-image{
+        width: 100%;
+    }
+
+    .audio-content {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .audio-content h1{
+        font-size: 4rem;
+    }
+
+    .audio-content P {
+        font-size: 2rem;
+        padding-left: 0rem;
+        width: 100%;
+        text-align: center;
+    }
+    
+    footer{
+        margin-top: 50rem;
+        height: 140vh;
+    }
+
+    .footer-section{
+        flex-direction: column;
+    }
+
+    .footer-content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-content h1 {
+        font-size: 4rem;
+    }
+
+    .footer-para{
+        font-size: 2rem;
+    }
+
+    .copyright{
+        font-size: 2rem;
+    }
+
+    .footer-nav{
+        width: 100%;
+        padding-left: 0%;
+    }
+
+    .footer-nav ul{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .navlist-item a {
+        font-size: 1.5rem;
+    }
+
+    .navlist-item {
+        margin-bottom: 1rem;
+    }
+
+    .social-media{
+        padding-left: 0rem;
+        justify-content: space-evenly;
+    }
+
+    .fa-facebook-square {
+        font-size: 4rem;
+    }
+
+    .fa-twitter{
+        font-size: 4rem;
+    }
+
+    .fa-instagram {
+        font-size: 4rem;
+    }
 }

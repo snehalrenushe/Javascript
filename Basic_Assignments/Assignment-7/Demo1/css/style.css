@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Kumbh+Sans:wght@400;700&family=Noto+Sans&family=Open+Sans:ital,wght@0,500;1,400&family=Poppins:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+body{
+    margin: 2rem;
+}
+
+.container{
+    box-shadow: 0px 2px 8px 0px rgb(168, 165, 165);
+    background-color: white;
+    text-align: center;
+    border-radius: 1rem;
+    position: relative;
+    margin: 0.5rem;
+    overflow: hidden;
+}
+
+.grid-box{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit,20rem);
+}
+
+.banner-img{
+    position: absolute;
+    background-image: url("../img/nature_scene.jpg");
+    height: 10rem;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.profile-img{
+    width: 8rem;
+    border-radius: 50%;
+    margin-top: 4.5rem;
+    position: relative;
+    z-index: 1;
+}
+
+.name{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.para{
+    margin: 1rem 2rem;
+    font-size: 0.9rem;
+}
+
+.btn{
+    width: 100%;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    padding: 1rem;
+    background-color: #248087;
+}

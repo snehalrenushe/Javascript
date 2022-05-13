@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'DM Sans', sans-serif;
+}
+
+/* Navbar Section */
+
+nav{
+    height: 4.5rem;
+    background-color: rgb(255, 255, 255);
+}
+
+.navbar{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4.5rem
+}
+
+.logo{
+    width: 18%;
+}
+
+.logo img{
+    max-width: 100%;
+}
+
+.navlist{
+    width: 30%;
+}
+
+.navlist ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-list-item{
+    list-style: none;
+}
+
+.nav-list-item a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 0.7rem;
+    letter-spacing: 2.4px;
+}
+
+.invite button{
+    background-color: black;
+    color: white;
+    border: none;
+    font-weight: 500;
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+}
+
+button{
+    padding: 0.8rem 1.2rem;
+}
+
+/* First Grid Section */
+
+.small-big{
+    display: grid;
+    grid-template-columns: 42% 58%;
+}
+
+.content{
+    background-color: rgb(0, 0, 0);
+}
+
+.image img{
+    height: 100%;
+    width: 100%;
+}
+
+.content-box{
+     width: 80%;
+     /* margin: auto; */
+     margin: 25% 13%;
+     border-left: 2px linear-gradient(0.6deg, #FFC593 0%, #BC7198 43.29%, #5A77FF 83.33%);
+}
+
+.content-box h1{
+    font-size: 2.5rem;
+    font-weight: 950;
+    line-height: 1.25;
+    letter-spacing: 3px;
+    color: white;
+    width: 90%;
+}
+
+.content-box p{
+    margin-top: 2.1rem;
+    font-weight: bold;
+    /* letter-spacing: 0.5px; */
+    line-height: 1.5;
+    color: #909090;
+    margin-bottom: 3rem;
+    font-size: 0.9rem;
+    width: 85%;
+}
+
+span{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 950;
+    letter-spacing: 2px;
+    color: white;
+    margin-right: 1rem;
+    
+}
+
+.fa-arrow-right-long{
+    color: white;
+}
+
+.vertical-gradient {
+    position: absolute;
+    top: 0;
+    height: 6px;
+    width: 19.8rem;
+    background-image: linear-gradient(0.6deg, #FFC593 0%, #BC7198 43.29%, #5A77FF 83.33%);
+    transform: rotate(90deg);
+    margin-top: 23rem;
+    margin-left: -9.5rem;
+}
+
+/* Second Grid Section */
+
+.big-small{
+    display: grid;
+    grid-template-columns: 58% 42%;
+}
+
+.second{
+    background-color: white;
+}
+
+.second h1{
+    color: black;
+    font-weight: bold;
+}
+
+.second p{
+    font-weight: normal;
+}
+
+.second span{
+    color: black;
+}
+
+.second .fa-arrow-right-long{
+    color: black;
+}
+
+/* Image Section */
+
+.image-section{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    height: 40%;
+}
+
+.sub-image{
+    height: 80%;
+    width: 100%;
+    
+}
+
+.sub-image img{
+    height: 100%;
+    width: 100%;
+}
+
+.card{
+    position: relative;
+    left: 11.43%;
+    right: 11.43%;
+    bottom: 4rem;
+    color: white;
+    /* margin-top: 10rem; */
+}

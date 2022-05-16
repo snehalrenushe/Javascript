@@ -66,6 +66,10 @@ button{
     padding: 0.8rem 1.2rem;
 }
 
+.toggler{
+    display: none;
+}
+
 /* First Grid Section */
 
 .small-big{
@@ -174,19 +178,305 @@ span{
 .sub-image{
     height: 80%;
     width: 100%;
-    
+    position: relative;
 }
 
 .sub-image img{
     height: 100%;
     width: 100%;
+    opacity: 3;
 }
 
 .card{
-    position: relative;
-    left: 11.43%;
-    right: 11.43%;
+    position: absolute;
+    margin-left: 11.43%;
     bottom: 4rem;
     color: white;
-    /* margin-top: 10rem; */
+}
+
+.horizotal-row{
+    width: 160%;
+    border: 0.2px solid white;
+    margin-bottom: 1rem;
+}
+
+.card p{
+    margin-bottom: 1rem;
+}
+
+/* 3-Logo-Section */
+
+.logo-content{
+    width: 75%;
+    margin: auto;
+}
+
+.logo-content{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-column-gap: 1rem;
+    margin-bottom: 5rem;
+}
+
+.container{
+   align-items: center;
+   height: 120%;
+}
+
+.container-logo{
+    width: 20%;
+    margin: auto;
+}
+
+.container-logo img{
+    width: 100%;
+}
+.container-heading{
+    margin: 2rem 0 1rem 0;
+    text-align: center;
+}
+
+.container-para{
+    color: #909090;
+    text-align: center;
+    font-size: 1rem;
+
+}
+
+/* Footer Section */
+
+footer{
+    background-color: #000000;
+    color: white;
+}
+
+.footer-section{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.flex-first{
+    display: flex;
+    float: left;
+    clear: both;
+}
+
+.footer-first{
+    width: 40%;
+}
+
+.footer-logo{
+    width: 70%;
+}
+
+.footer-logo img{
+    max-width: 100%;
+}
+
+.social-media{
+    padding-top: 3.8rem;
+    font-size: 1.5rem;
+    width: 65%;
+}
+
+.social-media i{
+    margin-right: 0.5rem;
+    font-weight: bold;
+}
+
+.list-item-list{
+    text-decoration: none;
+    list-style: none;
+    margin-bottom: 0.8rem;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+.flex-second{
+    width: 40%;
+}
+
+.footer-third{
+    text-align: right;
+}
+
+.footer-third p{
+    width: 100%;
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #909090;
+    padding-top: 4rem;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px){
+    .navbar {
+        width: 100%;
+        margin: 0;
+        padding: 1rem;
+    }
+
+    .logo {
+        width: 30%;
+    }
+
+    .small-big{
+        grid-template-columns: 58% 42%;
+    }
+
+    .big-small {
+        grid-template-columns: 42% 58%;
+    }
+
+    .image-section{
+        grid-template-columns: 50% 50%;
+    }
+
+    .sub-image {
+        height: 100%;
+    }
+
+    .logo-content {
+        margin-top: 5rem;
+        grid-template-columns: 100%;
+    }
+
+    .container-para{
+        font-size: 1.3rem;
+    }
+
+    .tab{
+        margin-top: 3rem;
+    }
+
+    .footer-section {
+        margin: 0 3rem;
+    }
+
+    .footer-first {
+        width: 100%;
+    }
+
+    .flex-first{
+        flex-direction: column;
+        width: 50%;
+    }
+
+    .flex-second{
+        width: 50%;
+    }
+
+    .footer-middle ul{
+        display: flex;
+        width: 80%;
+        justify-content: space-between;
+        margin-top: 2rem;
+    }
+
+    .social-media {
+        padding-top: 0.7999999999999998rem;
+    }
+
+    .footer-third p{
+        padding-top: 5rem;
+    }
+}
+
+
+@media only screen and (min-width: 350px) and (max-width: 768px){
+    .navlist{
+        display: none;
+    }
+
+    .invite{
+        display: none;
+    }
+
+    .toggler{
+        display: block;
+        font-size: 3rem;
+    }
+
+    .navbar{
+        width: 95%;
+    }
+
+    .logo{
+        width: 58%;
+    }
+
+    .small-big{
+        grid-template-columns: 100%;
+    }
+
+    .big-small{
+        grid-template-columns: 100%;
+    }
+
+    .image-section{
+        grid-template-columns: 100%;
+    }
+
+    .logo-content{
+        grid-template-columns: 100%;
+        margin-top: 5rem;
+    }
+
+    .tab{
+        margin-top: 3rem;
+    }
+    .sub-image{
+        height: 100%;
+    }
+
+    .footer-section{
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .flex-first{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-first {
+        width: 100%;
+    }
+
+    .footer-logo {
+        width: 100%;
+    }
+
+    .social-media {
+        width: 80%;
+        display: flex;
+        justify-content: space-around;
+        margin: auto;
+        padding-top: 1.5rem;
+    }
+
+    .list-item-list{
+        font-size: 1rem;
+    }
+
+    .footer-middle ul{
+        margin-top: 2rem;
+        text-align: center;
+    }
+
+    .flex-second{
+        width: 80%;
+    }
+
+    .footer-third{
+        text-align: center;
+        margin-top: 3rem;
+    }
+
+    .footer-third p{
+        padding-top: 2rem;
+        margin-bottom: 3rem;
+    }
 }

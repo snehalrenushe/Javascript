@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrotech</title>
+    <link rel="stylesheet" href="./css/Home_Style.css">
+    <link rel="stylesheet"  href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Inter&family=Kumbh+Sans:wght@400;700&family=Noto+Sans&family=Open+Sans:ital,wght@0,500;1,400&family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="./img/logo.png" alt="">
+                </div>
+                <div class="navbar">
+                    <ul class="nav-links">
+                        <li class="list-item"><a href="index.html">Home</a></li>
+                        <li class="list-item"><a href="about.html">About Us</a></li>
+                        <li class="list-item"><a href="product.html">Product</a></li>
+                        <li class="list-item"><a href="category.html">Category</a></li>
+                        <li class="list-item"><a href="Login.html">Login</a></li>
+                        <li class="list-item"><a href="#register">Register</a></li>
+                        <li class="list-item"><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="burger" onclick="navSlide()">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </nav>
+        </header>
+
+        <div class="slider-container">
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide"><img src="./img/1.jpg" alt=""></div>
+                  <div class="swiper-slide"><img src="./img/2.jpg" alt=""></div>
+                  <div class="swiper-slide"><img src="./img/3.jpg" alt=""></div>
+                  <div class="swiper-slide"><img src="./img/4.jpg" alt=""></div>
+                  
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+              
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                
+                <div class="swiper-button-next"></div>
+            </div>            
+        </div>
+
+        <main>
+            <div class="heading">
+                <div class="bar">|</div>
+                <div class="heading-name">Our Speciality</div>
+            </div>
+
+            <div class="pure-agri">
+                <div class="first-box">
+                    <h1>Pure Agriculture and Organic Form</h1>
+                    <h3>We are leader in Agriculture Market</h3>
+                    <p>Pure organic farming means avoiding all unnatural chemicals. In this process of farming, all the fertilisers and pesticides are obtained from natural sources such as bone meal or blood meal.</p>
+                    <button>Contact Us</button>
+                </div>
+                <div class="first-img">
+                    <img src="./img/pure_organic.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="three-img">
+                <div class="agriculture-leader">
+                    <img src="./img/Agriculture_Leader.jpg" alt="">
+                    <h3>Agriculture Leader</h3>
+                </div>
+                <div class="agriculture-leader">
+                    <img src="./img/quality.jpg" alt="">
+                    <h3>Quality Standards</h3>
+                </div>
+                <div class="agriculture-leader">
+                    <img src="./img/Organic_Services.jpg" alt="">
+                    <h3>Organic Services</h3>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <img src="./img/logo.png" alt="">
+            <h2>Manufactured and directed by</h2>
+            <h2>Agrotech products and research center</h2>
+            <h5>351,Vihe,Tal-Patan,Dist-Satara,Maharashtra 315105</h5>
+            <h5>Farmtech@gmail.com | +91 8425921120</h5>
+        </footer>
+
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>

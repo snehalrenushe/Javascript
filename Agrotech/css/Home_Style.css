@@ -1,0 +1,332 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+
+header{
+    background-color: #648E04;   
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 16%;
+}
+
+.logo{
+    width: 5%;
+}
+
+.logo img{
+    width: 100%;
+    margin: 1rem 1rem 1rem 2rem;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 140%;
+}
+
+.navbar li{
+    list-style: none;
+    cursor: pointer;
+}
+
+.navbar a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: white;
+    font-weight: bold;
+}
+
+.burger{
+    display: none;
+}
+
+.burger .line{
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px;
+}
+
+.slider-container{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.swiper{
+    width: 100%;
+    height: 80vh;
+    height: fit-content;
+}
+
+.swiper-slide img{
+    width: 100%;
+    height: 80vh;
+}
+
+main{
+    width: 85%;
+    margin: auto;
+}
+
+.heading{
+    margin-top: 2rem;
+    display: flex;
+}
+
+.bar{
+    border-left: 8px solid black;
+    height: 2rem;
+    color: white;
+}
+
+.heading-name{
+    padding-top: 0.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-left: 1rem;
+}
+
+.pure-agri{
+    display: flex;
+    height: 80vh;
+}
+
+.first-box{
+    width: 50%;
+    padding: 3rem 5rem 5rem 0;
+}
+
+.first-box h1{
+    font-size: 3rem;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+    color: #4e6c07;
+}
+
+.first-box h3{
+    margin-top: 2rem;
+    color: #3d5504;
+}
+
+.first-box p{
+    margin-top: 2rem;
+    color: #737965;
+}
+
+.first-box button{
+    border: none;
+    background-color: #648E04;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.8rem 1.2rem;
+    margin-top: 2rem;
+    color: white;
+}
+
+.first-img{
+    width: 50%;
+}
+
+.first-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.three-img{
+    display: flex;
+    justify-content: space-between;
+}
+
+.agriculture-leader{
+    margin-top: 3rem;
+    width: 25%;
+}
+
+.agriculture-leader img{
+    width: 100%;
+}
+
+.agriculture-leader h3{
+    text-align: center;
+    padding-top: 1rem;
+}
+
+footer{
+    background-color: #648E04;   
+    text-align: center;
+    margin-top: 2rem;
+    padding: 2rem;
+}
+
+footer img{
+    width: 6rem;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px)
+{
+    .burger{
+        display: block;
+    }
+
+    .navbar ul{
+        display: none;
+    }
+
+    .logo {
+        width: 15%;
+    }
+
+    nav{
+        justify-content: space-between;
+    }
+
+    /* .navbar{
+        position: absolute;
+        right: 0px;
+        height: 57vh;
+        top: 6vh;
+        background-color: #68c547;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 50%;
+        padding: 2vh;
+        transform: translate(100%);
+        transition: transform 0.5s ease-in;
+    }
+
+    .burger{
+        width: 25px;
+        height: 3px;
+        margin: 5px;
+    } */
+
+    .swiper-slide img {
+        width: 100%;
+        height: 41vh;
+    }
+
+    .slider-container {
+        height: 40vh;
+    }
+
+    .pure-agri{
+        height: 60vh;
+    }
+
+    .first-box{
+        padding: 0;
+        width: 100%;
+    }
+
+    .first-box h1 {
+        font-size: 2rem;
+        font-weight: 800;
+        padding-top: 2rem;
+    }
+
+    .first-img{
+        display: none;
+    }
+
+    .three-img{
+        flex-direction: column;
+    }
+
+    .agriculture-leader{
+        width: 100%;
+    }
+
+    .bottom{
+        padding: 0 0 2rem 0;
+    }
+
+    footer h2{
+        font-size: 1rem;
+    }
+
+    .footer h5{
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px)
+{
+    nav{
+        margin-right: 18%;
+    }
+
+    .navbar a{
+        font-size: 0.8rem;
+    }
+
+    .logo{
+        width: 10%;
+    }
+
+    .swiper-slide img,.slider-container{
+        height: 50vh;
+    }
+
+    .pure-agri{
+        height: 60vh;
+    }
+
+    .first-box{
+        padding: 1rem 2rem 5rem 0rem;
+    }
+
+    .first-box h1{
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px)
+{
+    .swiper-slide img,.slider-container {
+        height: 75vh;
+    }
+
+    nav{
+        margin-right: 22%;
+    }
+
+    .navbar a{
+        font-size: 1.2rem;
+    }
+
+    .logo{
+        width: 10%;
+    }
+
+    .swiper-slide img,.slider-container{
+        height: 50vh;
+    }
+
+    .pure-agri{
+        height: 50vh;
+    }
+
+    .first-box h1{
+        font-size: 2rem;
+    }
+
+    .first-box p{
+        margin-top: 0;
+    }
+
+    .first-box h3{
+        margin-top: 1rem;
+    }
+}

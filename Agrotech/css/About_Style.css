@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+
+main h1{
+    font-weight: 800;
+    color: #4e6c07;
+    margin-top: 2rem;
+}
+
+.about p{
+    margin-top: 2rem;
+    color: #828778;
+    font-weight: bold;
+}
+
+.three-img{
+    display: flex;
+    justify-content: space-between;
+}
+
+.agriculture-leader{
+    margin-top: 3rem;
+    width: 20%;
+}
+
+.three-img img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.three-img h3{
+    text-align: center;
+    padding-top: 1rem;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px)
+{
+    .three-img{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .agriculture-leader{
+        width: 50%;
+    }
+}

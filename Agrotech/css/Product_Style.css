@@ -1,0 +1,83 @@
+.main-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.box{
+    width: 30%;
+    margin: 2vh;
+    text-align: center;
+    min-height: 30vh;
+    border: 1px solid rgb(59, 58, 58);
+    border-radius: 2px;
+    display: inline;
+    box-shadow: 0.6px 0.3px 0.5px rgb(0, 0, 0);
+}
+
+.title {
+    font-size: 2px;
+}
+
+.box img {
+    width: 100px;
+    height: 150px;
+    margin: 2vh;
+    float: left;
+}
+
+.box h4 {
+    margin: 2vh;
+    font-size: 16px;
+}
+.title {
+    font-size: 2px;
+}
+
+.para{
+    min-height: 10vh;
+    margin-bottom: 3vh;
+}
+
+.box p{
+    text-align: justify;
+    font-size: 14px;
+    margin-right: 2vw;
+}
+
+.show{
+    cursor: pointer;
+    background-color: #648E04;
+    border: none;
+    position: relative;
+    border-radius: 4px;
+    padding: 1vh;
+    text-decoration: none;
+    margin-bottom: 1vh;
+    width: 40%;
+    margin-left: 10rem;
+    color: white;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 768px)
+{
+    .main-box{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box{
+        width: 90%;
+        height: 80%;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px)
+{
+    .box{
+        width: 40%;
+        height: 30%;
+    }
+}

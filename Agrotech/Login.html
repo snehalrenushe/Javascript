@@ -24,7 +24,7 @@
                         <li class="list-item"><a href="category.html">Category</a></li>
                         <li class="list-item"><a href="#login">Login</a></li>
                         <li class="list-item"><a href="Register.html">Register</a></li>
-                        <li class="list-item"><a href="#contact">Contact Us</a></li>
+                        <li class="list-item"><a href="contactus.html">Contact Us</a></li>
                     </ul>
                 </div>
                 <div class="burger" onclick="navSlide()">
@@ -34,6 +34,7 @@
                 </div>
             </nav>
         </header>
+        
 
         <main>
             <h2>LOGIN TO YOUR ACCOUNT</h2>
@@ -50,8 +51,8 @@
                     </div>
         
                     <div class="buttons">
-                        <button class="submit">Submit</button>
-                        <button class="reset">Reset</button>
+                        <button class="submit" onclick="submit()">Submit</button>
+                        <button class="reset" onclick="reset()">Reset</button>
                     </div>
                 </div>
     
@@ -71,4 +72,29 @@
             <h5>Farmtech@gmail.com | +91 8425921120</h5>
         </footer>
     </div>
+
+    <script>
+        function submit()
+        {
+            var username = document.getElementById("username").value;
+            var password = document.getElementById("password").value;
+            if (username == "a" && password == "a")
+            {
+                alert ("Login successfully");
+                window.location =  "category.html";
+            }
+            else
+            {
+                alert("Invalid Username and Password");
+                document.getElementById("username").value = '';
+                document.getElementById("password").value = '';
+            }
+        }
+
+        function reset()
+        {
+            document.getElementById("username").value = '';
+            document.getElementById("password").value = '';
+        }
+    </script>
 </body>

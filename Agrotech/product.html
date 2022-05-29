@@ -7,7 +7,8 @@
     <title>Product</title>
     <link rel="stylesheet" href="./css/Home_Style.css">
     <link rel="stylesheet" href="./css/Product_Style.css">
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Inter&family=Kumbh+Sans:wght@400;700&family=Noto+Sans&family=Open+Sans:ital,wght@0,500;1,400&family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/View_Product_After_Login.css">
+    <link href="https://fonts.googleapis.com/css2?fami ly=DM+Sans&family=Inter&family=Kumbh+Sans:wght@400;700&family=Noto+Sans&family=Open+Sans:ital,wght@0,500;1,400&family=Poppins:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
@@ -22,9 +23,9 @@
                         <li class="list-item"><a href="about.html">About Us</a></li>
                         <li class="list-item"><a href="#product">Product</a></li>
                         <li class="list-item"><a href="category.html">Category</a></li>
-                        <li class="list-item"><a href="#login">Login</a></li>
-                        <li class="list-item"><a href="#register">Register</a></li>
-                        <li class="list-item"><a href="#contact">Contact Us</a></li>
+                        <li class="list-item"><a href="Login.html">Login</a></li>
+                        <li class="list-item"><a href="Register.html">Register</a></li>
+                        <li class="list-item"><a href="contactus.html">Contact Us</a></li>
                     </ul>
                 </div>
                 <div class="burger" onclick="navSlide()">
@@ -34,6 +35,15 @@
                 </div>
             </nav>
         </header>
+        <div class="sub-nav" id="sub-nav">
+            <ul class="sub-nav-links">
+                <li class="list-item"><a href="category.html">Book Order</a></li>
+                <li class="list-item"><a href="#myorder">My Order</a></li>
+                <li class="list-item"><a href="#mycart">My Cart</a></li>
+                <li class="list-item"><a href="Change_password.html">Change Password</a></li>
+                <li class="list-item"><a href="#logout">Logout</a></li>
+            </ul>
+        </div>
 
         <main>
             <div class="main-box">
@@ -43,7 +53,7 @@
                     <div class="para">
                         Bajra is a coarse grain crop which is originated from India or Africa.
                     </div>
-                    <div class="show">View</div>
+                    <div class="show" onclick="view()">View</div>
                 </div>
                 <div class="box">
                     <img src="./img/beans.jpg" alt="">
@@ -51,7 +61,7 @@
                     <div class="para">
                         peanut was at an early time introduced to the Old World tropics..
                     </div>
-                    <div class="show">View</div>
+                    <div class="show" onclick="view()">View</div>
                 </div>
                 <div class="box">
                     <img src="./img/tomato.jpg" alt="">
@@ -59,7 +69,7 @@
                     <div class="para">
                         Tomatoes are packed with vitamins A and C, calcium and potassium.
                     </div>
-                    <div class="show">View</div>
+                    <div class="show" onclick="view()">View</div>
                 </div>
                 <div class="box">
                     <img src="./img/zendu.jpg" alt="">
@@ -67,7 +77,7 @@
                     <div class="para">
                         Contains natural antiseptic/anti-inflammatory properties.
                     </div>
-                    <div class="show">View</div>
+                    <div class="show" onclick="view()">View</div>
                 </div>
                 <div class="box">
                     <img src="./img/cabbage.jpg" alt="">
@@ -75,7 +85,7 @@
                     <div class="para">
                         Cabbage is a versatile variety suitable for the production of greens throughout the year.
                     </div>
-                    <div class="show">View</div>
+                    <div class="show" onclick="view()">View</div>
                 </div>
                 <div class="box">
                     <img src="./img/wheat.jpg" alt="">
@@ -83,7 +93,7 @@
                     <div class="para">
                         a cereal grain that yields a fine white flour used chiefly in breads.
                     </div>
-                    <div class="show">View</div>
+                    <div class="show" onclick="view()">View</div>
                 </div>
                 <div class="box">
                     <img src="./img/rose.jpg" alt="">
@@ -91,7 +101,7 @@
                     <div class="para">
                         The leaves are alternate and pinnately compound.
                     </div>
-                    <div class="show">View</div>
+                    <div class="show" onclick="view()">View</div>
                 </div>
                 <div class="box">
                     <img src="./img/healthy.jpg" alt="">
@@ -99,7 +109,7 @@
                     <div class="para">
                         It is Packed with essential nutrients, beetroots are a great source of fiber.
                     </div>
-                    <div class="show">View</div>
+                    <div class="show" onclick="view()">View</div>
                 </div>
                 <div class="box">
                     <img src="./img/Quality_Standards.jpg" alt="">
@@ -107,7 +117,7 @@
                     <div class="para">
                         BThey're packed with vitamins, minerals and fiber but low in calories.
                     </div>
-                    <div class="show">View</div>
+                    <div class="show" onclick="view()" id="show">View</div>
                 </div>
             </div>
         </main>
@@ -120,4 +130,16 @@
             <h5>Farmtech@gmail.com | +91 8425921120</h5>
         </footer>
     </div>
+
+    <script>
+        function view()
+        {
+
+            window.location =  "product_Details.html";
+            
+            
+            document.getElementById('pname').innerHTML = 'bajra';
+            
+        }
+    </script>
 </body>

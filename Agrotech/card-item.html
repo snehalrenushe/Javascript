@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product Details</title>
+    <title>Card Items</title>
     <link rel="stylesheet" href="./css/Home_Style.css">
-    <link rel="stylesheet" href="./css/Product_Details.css">
     <link rel="stylesheet" href="./css/View_Product_After_Login.css">
+    <link rel="stylesheet" href="./css/card-item.css">
+
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Inter&family=Kumbh+Sans:wght@400;700&family=Noto+Sans&family=Open+Sans:ital,wght@0,500;1,400&family=Poppins:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -35,7 +36,7 @@
                 </div>
             </nav>
         </header>
-        <div class="sub-nav" id="sub-nav">
+        <div class="sub-nav">
             <ul class="sub-nav-links">
                 <li class="list-item"><a href="category.html">Book Order</a></li>
                 <li class="list-item"><a href="#myorder">My Order</a></li>
@@ -44,40 +45,67 @@
                 <li class="list-item"><a href="#logout">Logout</a></li>
             </ul>
         </div>
-        <main>
-            <h1>Product Details</h1>
 
-            <div class="content">
-                <!-- <table class="tabledata"> -->
-                    <div class="grid">
-                        <div class="first-grid">
-                            Product Name
-                        </div>
-                        <div class="second-grid">
-                            Category
-                        </div>
-                        <div class="third-grid">
-                            Price
-                        </div>
-                        <div class="fifth-grid">
-                            <p id="name">1</p>
-                        </div>
-                        <div class="sixth-grid">
-                            <p id="category">2</p>
-                        </div>
-                        <div class="seventh-grid">
-                            <p id="price">3</p>
-                        </div>
-                    </div>
-                <div class="box">
-                    <img src="./img/vegetables.jpg" alt="">
+        <main>
+            <h1>CARD ITEMS</h1>
+
+            <!-- <div class="row">
+                <div class="column" style="background-color:#bbb;">
+                    <h2>Image</h2>
+                    <p></p>
+                </div>
+                <div class="column" style="background-color:#ccc;">
+                    <h2>Product Name</h2>
+                    <p></p>
+                </div>
+                <div class="column" style="background-color:#ddd;">
+                    <h2>Cost</h2>
+                    <p></p>
+                </div>
+                <div class="column" style="background-color:#ddd;">
+                    <h2>Quantity</h2>
+                    <p></p>
+                </div>
+                <div class="column" style="background-color:#ddd;">
+                    <h2>Total</h2>
+                    <p></p>
+                </div>
+                <div class="column" style="background-color:#ddd;">
+                    <h2>Action</h2>
+                    <p></p>
+                </div>
+            </div> -->
+
+            <div class="grid">
+                <div class="first-grid">
+                    Image
+                </div>
+                <div class="second-grid">
+                    Name
+                </div>
+                <div class="third-grid">
+                    cost
+                </div>
+                <div class="forth-grid">
+                    Action
+                </div>
+                <div class="fifth-grid">
+                    <p id="name">1</p>
+                </div>
+                <div class="sixth-grid">
+                    <p id="category">2</p>
+                </div>
+                <div class="seventh-grid">
+                    <p id="stock">3</p>
+                </div>
+                <div class="eighth-grid">
+                    <p id="price">4</p>
                 </div>
             </div>
 
             <div class="btn">
-                <button onclick="addcart()">Add to Cart</button>
+                <button onclick="placeorder()">Place order</button>
             </div>
-            
         </main>
 
         <footer>
@@ -89,55 +117,16 @@
         </footer>
     </div>
 
-    <script src="./js/script.js"></script>
+    </div>
 
     <script>
-
-        
         document.getElementById('name').innerHTML = 'bajra';
         document.getElementById('category').innerHTML = 'Grains';
+        document.getElementById('stock').innerHTML = '12';
         document.getElementById('price').innerHTML = '60';
-
-        function addcart()
+        function placeorder()
         {
-            window.location = 'card-item.html';
+            window.location = 'make_payment.html';
         }
-
-        // document.getElementById('here').innerHTML = b;
-
-        
-
-
-        // var view = document.getElementById("show");
-        // view.addEventListener("click", displaydetails);
-
-        // var row = 1;
-        // function displaydetails()
-        // {
-        //     var name = document.getElementById("pname").value;
-        //     var category = document.getElementById("pcategory").value;
-        //     var price = document.getElementById("pprice").value;
-
-        //     if(!name || !category || !price)
-        //     {
-        //         alert("Please fill all data");
-        //         return;
-        //     }
-            
-        //     var display = document.getElementById("tabledata");
-
-        //     var newRow = display.inserRow(row);
-
-        //     var cell1 = newRow.insertCell(0);
-        //     var cell2 = newRow.insertCell(1);
-        //     var cell3 = newRow.insertCell(2);
-
-        //     cell1.innerHtml.value = "bajra";
-
-        //     row++;
-        // }
-
-
-
     </script>
 </body>

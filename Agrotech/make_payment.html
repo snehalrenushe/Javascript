@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product Details</title>
+    <title>Make Payment</title>
     <link rel="stylesheet" href="./css/Home_Style.css">
-    <link rel="stylesheet" href="./css/Product_Details.css">
     <link rel="stylesheet" href="./css/View_Product_After_Login.css">
+    <link rel="stylesheet" href="./css/Login.css">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Inter&family=Kumbh+Sans:wght@400;700&family=Noto+Sans&family=Open+Sans:ital,wght@0,500;1,400&family=Poppins:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -35,7 +35,7 @@
                 </div>
             </nav>
         </header>
-        <div class="sub-nav" id="sub-nav">
+        <div class="sub-nav">
             <ul class="sub-nav-links">
                 <li class="list-item"><a href="category.html">Book Order</a></li>
                 <li class="list-item"><a href="#myorder">My Order</a></li>
@@ -44,42 +44,49 @@
                 <li class="list-item"><a href="#logout">Logout</a></li>
             </ul>
         </div>
+
         <main>
-            <h1>Product Details</h1>
+            <h2>Make Payment</h2>
 
             <div class="content">
-                <!-- <table class="tabledata"> -->
-                    <div class="grid">
-                        <div class="first-grid">
-                            Product Name
-                        </div>
-                        <div class="second-grid">
-                            Category
-                        </div>
-                        <div class="third-grid">
-                            Price
-                        </div>
-                        <div class="fifth-grid">
-                            <p id="name">1</p>
-                        </div>
-                        <div class="sixth-grid">
-                            <p id="category">2</p>
-                        </div>
-                        <div class="seventh-grid">
-                            <p id="price">3</p>
-                        </div>
+                <div class="first-content">
+                    <div class="content-box">
+                        <p class="lbl-farm">Card No</p>
+                        <input type="text" id="cardno" class="txt-farm">
                     </div>
-                <div class="box">
-                    <img src="./img/vegetables.jpg" alt="">
+                    <div class="content-box">
+                        <p class="lbl-farm">Name on Card</p>
+                        <input type="text" id="nameoncard" class="txt-farm">
+                    </div>
+                    <div class="content-box">
+                        <p class="lbl-farm">Card Type</p>
+                        <input type="password" id="cardtype" class="txt-farm">
+                    </div>
+                    <div class="content-box">
+                        <p class="lbl-farm">Card Expiry</p>
+                        <input type="password" id="cardexpiry" class="txt-farm">
+                    </div>
+                    <div class="content-box">
+                        <p class="lbl-farm">CW Number</p>
+                        <input type="number" id="cwnumber" class="txt-farm">
+                    </div>
+                    <div class="content-box">
+                        <p class="lbl-farm">Total Amount</p>
+                        <input type="email" id="totalamount" class="txt-farm">
+                    </div>
+                    <div class="buttons">
+                        <button class="submit" onclick="payment()">Make Payment</button>
+                        <button class="reset">Reset</button>
+                    </div>
+                </div>
+    
+                <div class="login-image">
+                    <img src="./img/atm.jpg" alt="">
                 </div>
             </div>
-
-            <div class="btn">
-                <button onclick="addcart()">Add to Cart</button>
-            </div>
+            
             
         </main>
-
         <footer>
             <img src="./img/logo.png" alt="">
             <h2>Manufactured and directed by</h2>
@@ -89,55 +96,10 @@
         </footer>
     </div>
 
-    <script src="./js/script.js"></script>
-
     <script>
-
-        
-        document.getElementById('name').innerHTML = 'bajra';
-        document.getElementById('category').innerHTML = 'Grains';
-        document.getElementById('price').innerHTML = '60';
-
-        function addcart()
+        function payment()
         {
-            window.location = 'card-item.html';
+            window.location = 'Final_Form.html';
         }
-
-        // document.getElementById('here').innerHTML = b;
-
-        
-
-
-        // var view = document.getElementById("show");
-        // view.addEventListener("click", displaydetails);
-
-        // var row = 1;
-        // function displaydetails()
-        // {
-        //     var name = document.getElementById("pname").value;
-        //     var category = document.getElementById("pcategory").value;
-        //     var price = document.getElementById("pprice").value;
-
-        //     if(!name || !category || !price)
-        //     {
-        //         alert("Please fill all data");
-        //         return;
-        //     }
-            
-        //     var display = document.getElementById("tabledata");
-
-        //     var newRow = display.inserRow(row);
-
-        //     var cell1 = newRow.insertCell(0);
-        //     var cell2 = newRow.insertCell(1);
-        //     var cell3 = newRow.insertCell(2);
-
-        //     cell1.innerHtml.value = "bajra";
-
-        //     row++;
-        // }
-
-
-
     </script>
 </body>

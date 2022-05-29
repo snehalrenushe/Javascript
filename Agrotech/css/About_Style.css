@@ -17,34 +17,36 @@ main h1{
     font-weight: bold;
 }
 
-.three-img{
+.about-three-img{
     display: flex;
     justify-content: space-between;
 }
 
-.agriculture-leader{
+.about-agriculture-leader{
     margin-top: 3rem;
     width: 20%;
+    height: 35vh;
 }
 
-.three-img img{
+.about-three-img img{
     width: 100%;
     border-radius: 50%;
+    height: 100%;
 }
 
-.three-img h3{
+.about-three-img h3{
     text-align: center;
     padding-top: 1rem;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 768px)
 {
-    .three-img{
+    .about-three-img{
         flex-direction: column;
         align-items: center;
     }
 
-    .agriculture-leader{
+    .about-agriculture-leader{
         width: 50%;
     }
 }

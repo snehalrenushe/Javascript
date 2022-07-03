@@ -1,22 +1,27 @@
-.sub-nav{
+.sub-nav
+{
     background-color: #CCDBA9;
     height: 9vh;
 }
 
-.nav-links{
+.nav-links
+{
     display: flex;
 }
 
-.sub-nav-links{
+.sub-nav-links
+{
     display: flex;
 }
 
-.sub-nav-links li{
+.sub-nav-links li
+{
     list-style: none;   
     margin-top: 0.8rem;
 }
 
-.sub-nav-links a{
+.sub-nav-links a
+{
     text-decoration: none;
     margin: 1rem;
     color: white;
@@ -28,7 +33,8 @@
 
 @media only screen and (min-width: 320px) and (max-width: 768px)
 {
-    .sub-nav {
+    .sub-nav
+ {
         height: 10vh;
     }
     
